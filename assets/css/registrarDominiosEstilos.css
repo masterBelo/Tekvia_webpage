@@ -1,0 +1,374 @@
+@media (min-width:750px){
+  main{
+    margin-top: 96px!important;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+
+
+  }
+  main section{
+    width: 100%;
+    height: auto;
+  }
+  #buscadorDominiosRegistro{
+
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    background-color: #3661A1;
+
+  }
+  #buscadorDominiosRegistro .filaBuscador1{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 30px;
+  }
+  #buscadorDominiosRegistro .filaBuscador1 .filaBuscador1Columna1{
+    padding-top: 50px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    align-items: flex-end;
+    width: 65%;
+  }
+  #buscadorDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 p{
+    max-width: 95%;
+    color:white;
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 10px;
+    text-indent: 55%;
+  }
+  #buscadorDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 .inputBuscadorDominiosRegistro{
+    width: 400px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    background: white;
+
+    border-radius: 4px;
+    border: 1px solid #757878;
+  }
+  #buscadorDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 .inputBuscadorDominiosRegistro input{
+    width: calc(100% - 32px);
+    border: none;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+  #buscadorDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 .inputBuscadorDominiosRegistro input::placeholder{
+    color: #3661A1;
+  }
+  #buscadorDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 .inputBuscadorDominiosRegistro input:focus{
+    outline: none;
+  }
+  #buscadorDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 .inputBuscadorDominiosRegistro img{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+
+  }
+  #buscadorDominiosRegistro .filaBuscador1 .filaBuscador1Columna2{
+    width: 35%;
+
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+
+  }
+  #buscadorDominiosRegistro .filaBuscador1 .filaBuscador1Columna2 img{
+    width: 200px;
+    height: 150px;
+  }
+  #buscadorDominiosRegistro .filaBuscador2{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    width: 100%;
+  }
+  #buscadorDominiosRegistro .filaBuscador2 button{
+    margin: 30px;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 130px;
+    border-radius: 6px;
+    border: none;
+    background-color: #23B534;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+
+  /*INFOI*/
+
+  #infoIDominiosRegistro{
+
+    height: 300px;
+    width: 100%;
+    background-color: #f3f5f4;
+    display: flex;
+    display: -webkit- flex;
+    display: -moz- flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+
+  }
+  #infoIDominiosRegistro .filaBuscador1{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+  }
+  #infoIDominiosRegistro .filaBuscador1 .filaBuscador1Columna1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    display: -webkit- flex;
+    display: -moz- flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+  }
+  #infoIDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 img{
+    width: 200px;
+    height: 200px;
+  }
+  #infoIDominiosRegistro .filaBuscador1 .filaBuscador1Columna2{
+
+    width: 45%;
+    margin-right: 15%;
+    margin-top: 3%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    flex-direction: column;
+  }
+  #infoIDominiosRegistro .filaBuscador1 .filaBuscador1Columna2 .title{
+
+    max-width: 95%;
+    color: #0061a5;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+
+
+  }
+  #infoIDominiosRegistro .filaBuscador1 .filaBuscador1Columna2 .text{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+
+  }
+  #infoIDominiosRegistro .filaBuscador1 .filaBuscador1Columna2 .inputBuscadorDominiosRegistro{
+    width: 400px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    background: white;
+
+    border-radius: 4px;
+    border: 1px solid #757878;
+
+  }
+  #infoIDominiosRegistro .filaBuscador2{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    width: 100%;
+  }
+  #infoIDominiosRegistro .filaBuscador2 button{
+    margin: 30px;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 130px;
+    border-radius: 6px;
+    border: none;
+    background-color: #23B534;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+
+  /*INFOII*/
+
+  #infoIIDominiosRegistro{
+
+    height: 300px;
+    width: 100%;
+    background-color: #bbc2c5;
+    display: flex;
+    display: -webkit- flex;
+    display: -moz- flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+
+  }
+  #infoIIDominiosRegistro .filaBuscador1{
+
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 30px;
+
+  }
+  #infoIIDominiosRegistro .filaBuscador1 .filaBuscador1Columna1{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 15%;
+    height: 100%;
+  }
+  #infoIIDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 .title{
+
+    max-width: 95%;
+    color: #0061a5;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #infoIIDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 .text{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #infoIIDominiosRegistro .filaBuscador1 .filaBuscador1Columna1 .inputBuscadorDominiosRegistro{
+    width: 400px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    background: white;
+
+    border-radius: 4px;
+    border: 1px solid #757878;
+  }
+  #infoIIDominiosRegistro .filaBuscador1 .filaBuscador1Columna2{
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    display: -webkit- flex;
+    display: -moz- flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+
+  }
+  #infoIIDominiosRegistro .filaBuscador1 .filaBuscador1Columna2 img{
+    width: 200px;
+    height: 200px;
+  }
+  #infoIIDominiosRegistro .filaBuscador2{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    width: 100%;
+  }
+
+}

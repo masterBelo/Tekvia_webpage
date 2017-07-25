@@ -1,0 +1,508 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+html{
+  height: 100%;
+  background-image: url("../../resources/fondo-login.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+body{
+
+  min-height: 100%;
+}
+
+.content{
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+
+  justify-content: center;
+  -webkit-justify-content: center;
+
+
+}
+
+@media (min-width:781px){
+
+  .formContent{
+    background-color:white;
+    width: 300px;
+    min-height: 560px;
+    height: auto;
+    border-radius: 4px;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    flex-direction: column; -webkit-flex-direction: column; -moz-flex-direction: column;
+    padding:15px;
+  }
+  .formLogin{
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+
+
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    flex-direction: column; -webkit-flex-direction: column; -moz-flex-direction: column;
+  }
+  .textoLogin{
+    box-sizing: border-box;
+    width: 90%;
+    height: 36px;
+    font-size: 13px;
+    line-height: 1.5384616;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-right: 36px;
+  }
+  .formContent .formLogin .seccion{
+    width: 100%;
+    height: auto;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+
+
+    flex-direction: column; -webkit-flex-direction: column; -moz-flex-direction: column;
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+  }
+  .formContent .formLogin .seccion .circuloTexto{
+    height: 70px;
+    width:  70px;
+    margin: 10px;
+    border: 3px solid #90A4AE;
+    border-radius: 50%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+
+
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    color: #90A4AE!important;
+  }
+  .formContent .formLogin .seccion .circuloTexto i{
+    font-size: 30px;
+    height: auto;
+    width: auto;
+  }
+  .formContent .formLogin .seccion .titulo{
+    text-align: center;
+    font-size: 17px;
+  }
+  .formContent .formLogin .seccion .subtitulo{
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+  }
+
+  .formContent .formLogin .seccion .recordarSeccion{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+
+
+    flex-direction: row; -webkit-flex-direction: row; -moz-flex-direction: row;
+
+  }
+  .formContent .formLogin .seccion .recordarSeccion .columnaSeccion{
+    width: 50%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+
+
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+  }
+  .formContent .formLogin .seccion .recordarSeccion .columnaSeccion input{
+    margin-right: 15px;
+  }
+  .b{
+    text-align: right;
+  }
+  .b a{
+    text-align: right;
+    font-size: 13px;
+    color: #1E88E5;
+    text-decoration: none;
+  }
+  .formContent .formLogin .seccion button{
+    height: 36px;
+    width: 90%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #EC407A;
+    border-color: #EC407A;
+    color: #fff;
+    cursor: pointer;
+
+  }
+  .formContent .formLogin .seccion .textoBotones{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #999999;
+    font-size: 12px;
+  }
+  .formContent .formLogin .seccion .seccionFacebook{
+    width: 100%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+
+
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    text-decoration: none;
+  }
+  .formContent .formLogin .seccion .seccionFacebook .botonFacebook{
+    width: 90%;
+    height: 36px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #3b5898;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+
+
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    font-size: 13px;
+
+  }
+  .formContent .formLogin .seccion .seccionRegistro{
+    width: 100%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+
+
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    text-decoration: none;
+  }
+  .formContent .formLogin .seccion .seccionRegistro .botonRegistrate{
+    width: 90%;
+    height: 36px;
+    border-radius: 3px;
+    color: #333;
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+
+
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    font-size: 13px;
+  }
+  .formContent .formLogin .seccion .condiciones{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    color: #999999;
+    font-size: 12px;
+  }
+  .formContent .formLogin .seccion .condiciones a{
+    color: #1E88E5;
+    text-decoration: none;
+  }
+  #snakbarError1,#snakbarError2{
+      visibility: hidden;
+      width: 350px;
+      margin-left: -191px;
+      background-color: white;
+      color: #90A4AE;
+      text-align: center;
+      border-radius: 2px;
+      border: 1px solid #ddd;
+      padding: 16px;
+      position: fixed;
+      z-index: 1;
+      left: 50%;
+      bottom: 30px;
+      font-size: 17px;
+  }
+}
+
+
+
+
+@media (max-width:780px) {
+  body{
+    background-color: white;
+  }
+  .formContent{
+    background-color:white;
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 0;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    flex-direction: column; -webkit-flex-direction: column; -moz-flex-direction: column;
+  }
+  .formLogin{
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    flex-direction: column; -webkit-flex-direction: column; -moz-flex-direction: column;
+  }
+  .textoLogin{
+    box-sizing: border-box;
+    width: 90%;
+    height: 36px;
+    font-size: 13px;
+    line-height: 1.5384616;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-right: 36px;
+  }
+  .formContent .formLogin .seccion{
+    width: 100%;
+    height: auto;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    flex-direction: column; -webkit-flex-direction: column; -moz-flex-direction: column;
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+  }
+  .formContent .formLogin .seccion .circuloTexto{
+    height: 70px;
+    width:  70px;
+    margin: 10px;
+    border: 3px solid #90A4AE;
+    border-radius: 50%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    color: #90A4AE!important;
+  }
+  .formContent .formLogin .seccion .circuloTexto i{
+    font-size: 30px;
+    height: auto;
+    width: auto;
+  }
+  .formContent .formLogin .seccion .titulo{
+    text-align: center;
+    font-size: 17px;
+  }
+  .formContent .formLogin .seccion .subtitulo{
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+  }
+
+  .formContent .formLogin .seccion .recordarSeccion{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    flex-direction: row; -webkit-flex-direction: row; -moz-flex-direction: row;
+
+  }
+  .formContent .formLogin .seccion .recordarSeccion .columnaSeccion{
+    width: 50%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+  }
+  .formContent .formLogin .seccion .recordarSeccion .columnaSeccion input{
+    margin-right: 15px;
+  }
+  .formContent .formLogin .seccion .recordarSeccion .b{
+    text-align: right;
+  }
+  .formContent .formLogin .seccion .recordarSeccion .b a{
+    text-align: right;
+    font-size: 13px;
+    color: #1E88E5;
+    text-decoration: none;
+    width: 100%;
+  }
+  .formContent .formLogin .seccion button{
+    height: 36px;
+    width: 90%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #EC407A;
+    border-color: #EC407A;
+    color: #fff;
+    cursor: pointer;
+
+  }
+  .formContent .formLogin .seccion .textoBotones{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #999999;
+    font-size: 12px;
+  }
+  .formContent .formLogin .seccion .seccionFacebook{
+    width: 100%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    text-decoration: none;
+  }
+  .formContent .formLogin .seccion .seccionFacebook .botonFacebook{
+    width: 90%;
+    height: 36px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #3b5898;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    font-size: 13px;
+
+  }
+  .formContent .formLogin .seccion .seccionRegistro{
+    width: 100%;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    text-decoration: none;
+  }
+  .formContent .formLogin .seccion .seccionRegistro .botonRegistrate{
+    width: 90%;
+    height: 36px;
+    border-radius: 3px;
+    color: #333;
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+    display: flex; display: -webkit-flex; display: -moz-flex;
+    align-items: center; -webkit-align-items: center; -moz-align-items: center;
+    justify-content: center; -webkit-justify-content: center; -moz-justify-content: center;
+    font-size: 13px;
+  }
+  .formContent .formLogin .seccion .condiciones{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    color: #999999;
+    font-size: 12px;
+    text-align: center;
+  }
+  .formContent .formLogin .seccion .condiciones a{
+    color: #1E88E5;
+    text-decoration: none;
+  }
+
+
+
+
+  #snakbarError1 , #snakbarError2{
+      visibility: hidden;
+      width: 200px;
+      margin-left: -116px;
+      background-color: white;
+      color: #90A4AE;
+      text-align: center;
+      border-radius: 2px;
+      border: 1px solid #ddd;
+      padding: 16px;
+      position: fixed;
+      z-index: 1;
+      left: 50%;
+      bottom: 30px;
+      font-size: 17px;
+  }
+
+
+
+}
+
+
+#loadImage{
+  visibility: hidden;
+  width: 150px;
+  height: 150px;
+  margin-left: -75px;
+  left: 50%;
+  margin-top: -75px;
+  top:50%;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  position: fixed;
+  z-index: 1;
+  background-image: url('../../login/resources/loadgalshir.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #999999;
+  transition: .5s ease;
+}
+.wrong{
+  background-color: #FFCDD2;
+}
+
+.modal{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.7);
+    display:none;
+}
+
+.ventana{
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 25%;
+    height: 50px;
+    color: #fff;
+    background-color:rgba(197,029,052,.5);
+    width:50%;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 5;
+    font-size: 30px;
+}
+
+.ventana span{
+    color:#fff;
+    background-color:#000;
+    padding:.2em .7em .2em .7em;
+    font-family:Arial;
+    font-weight:bold;
+    border:2px solid #fff;
+    border-radius:50%;
+    position:absolute;
+    top:60px;
+    left: 45%;
+    cursor:pointer;
+    z-index: 5;
+}
+
+
+
+#snakbarError1.show , #snakbarError2.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}

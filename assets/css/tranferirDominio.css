@@ -1,0 +1,200 @@
+/* CSS style Design by Tekvia Sistems */
+.transferirDominio{
+    width: 100%;
+    height: 375px;
+    background-color: #345D9A;
+}
+.transferirDominio1{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+.transferirDominio2{
+    float: left;
+    width: 13%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    margin-top: -30px;
+}
+.transferirDominioImg{
+    width: 210px;
+
+}
+
+.transferirDominioTxt{
+    text-align: right;
+    font-size: 31px;
+    color: #fff;
+    margin-right: 100px;
+    margin-top: 10%;
+
+}
+
+.tranferirDominioInput{
+    font-size: 21px;
+    width: 450px;
+    height: 50px;
+    float: right;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.tranferirDominioInputD{
+    width: 90%;
+    height: 100%;
+    float: left;
+    border: none;
+    color: #345D9A;
+}
+.tranferirDominioInputI{
+    float: left;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    background-color: #fff;
+    color: #345D9A;
+    font-size: 35;
+    }
+
+input::-webkit-input-placeholder {
+    color: #084B8A;
+}
+
+.transferirDominioBtnArea{
+    margin-top: 80px;
+    margin-left: 70%;
+}
+.transferirDominioBtn{
+    font-size: 15px;
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    background-color: #00b61c;
+
+
+}
+.transferirDominioAyuda{
+    width: 100%;
+    height: 60px;
+    background-color: #323232;
+}
+.transferirDominioAyuda1{
+    float: left;
+    height: 100%;
+    width: 45%;
+    color: #fff;
+    font-size: 21px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+}
+.transferirDominioAyuda2{
+    float: left;
+    height: 100%;
+    width: 10%;
+    color: #fff;
+    font-size: 21px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+}
+.transferirDominioAyuda3{
+    float: left;
+    height: 100%;
+    width: 45%;
+    color: #fff;
+    font-size: 21px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+}
+
+.transferirDominio3{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+.transferirDominio31{
+    margin-top: 30px;
+    height: 95%;
+    width: 100%;
+     background: url(../../resources/cuatrocuadros.png) top center repeat-y;
+    background-size: 400px;
+}
+
+
+.transferirDominio3P21, .transferirDominio3P22, .transferirDominio3P23, .transferirDominio3P24{
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+.comoelmarazul{
+    color: #345D9A;
+}
+.tD22{
+    font-size: 23;
+}
+.transferirDominio3P221{
+    text-align: left;
+    margin-left: 27%;
+    margin-top: 45px;
+    width: 60%;
+    height: 20px;
+}
+.transferirDominio3P231{
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 27%;
+    margin-right: 50px;
+    width: 60%;
+    height: 20%;
+}
+.transferirDominio3P211{
+    text-align: justify;
+    margin-right: 16%;
+    margin-left: 16%;
+    margin-top: 200px;
+    width: 60%;
+    height: 20px;
+}
+.transferirDominio3P241{
+    text-align: left;
+    margin-left: 16%;
+    margin-top: 160px;
+    margin-right: 50px;
+    width: 60%;
+}

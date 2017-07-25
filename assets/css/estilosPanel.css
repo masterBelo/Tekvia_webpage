@@ -1,0 +1,1819 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial;
+  overflow-y: hidden!important;
+}
+
+@media (max-width:849px){
+  #navBar{
+    margin-left: -250px;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz--webkit-transition: .3s ease-in-out;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+
+
+  }
+  .hide{
+    display: none!important;
+  }
+  .show{
+    margin-left: 0px!important;
+  }
+
+
+  #navBar .degradadoNavBar{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+  }
+  .degradadoNavBar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+
+  }
+  #logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("../../panel/resources/logo.png");
+    background-size:  130px 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #user-info{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+
+  }
+  #user-info .imagenPerfil{
+    width: 40%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+  }
+  #user-info .imagenPerfil img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #E0E0E0;
+  }
+  #user-info .nombrePerfil{
+    width: 60%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    color: #0061A4;
+  }
+  #navegacionNavBar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    border-top: 1px solid #E0E0E0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+  }
+  #navegacionNavBar li{
+    width: 100%;
+    height: auto;
+
+  }
+  #navegacionNavBar li a{
+    display: block;
+
+    padding-left: 30px;
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    font-size: 18px;
+    color: #0061A4;
+    text-decoration: none;
+    line-height: 40px;
+  }
+  #navegacionNavBar li:hover{
+    background-color: #E8EAF6;
+  }
+  .activo{
+    background-color: #0061A4;
+  }
+  .activo:hover{
+    background-color: #0061A4!important;
+  }
+  .activo a{
+    color: white!important;
+  }
+
+
+
+
+
+
+  #cuerpo{
+
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+  }
+  .cabeceraCuerpo{
+    height: 50px;
+    width: 100%;
+
+    background-color: #fff;
+    border-bottom: 1px solid #E0E0E0;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+
+  }
+  .iconosCabecera{
+    height: 50px!important;
+    width: 100px!important;
+    margin: 0px!important;
+    margin-left: 20px!important;
+    border: none!important;
+    box-shadow: none!important;
+
+  }
+  .iconoUno{
+    background-color: white!important;
+    color: #0061A4!important;
+    font-size: 15px!important;
+    border: none!important;
+  }
+  .iconoDos{
+    background-color: white!important;
+    color: #0061A4!important;
+    font-size: 15px!important;
+    border: none!important;
+  }
+  .iconoUno .menu .item i{
+    background-color: white!important;
+    color: #0061A4!important;
+  }
+
+
+
+
+  .botonMenu{
+    height: 50px;
+    width: 50px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+  }
+  .botonMenu .contenedorLineas{
+    height: auto;
+  }
+  .linea1, .linea2 , .linea3{
+    height: 3px;
+    width: 30px;
+    border-radius: 1px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #0061A4;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+
+
+  .Abierta1{
+
+    -webkit-transform:
+      rotate(-40deg)
+      translate(-8px,-1px)
+      scaleX(.5);
+
+        -ms-transform:
+      rotate(-40deg)
+      translate(-8px,-1px)
+      scaleX(.5);
+
+            transform:
+      rotate(-40deg)
+      translate(-8px,-1px)
+      scaleX(.5);
+  }
+  .Abierta2{
+
+    -webkit-transform: scaleX(.8);
+
+        -ms-transform: scaleX(.8);
+
+            transform: scaleX(.8);
+  }
+  .Abierta3{
+    -webkit-transform:
+      rotate(40deg)
+      translate(-8px,1px)
+      scaleX(.5);
+        -ms-transform:
+      rotate(40deg)
+      translate(-8px,1px)
+      scaleX(.5);
+            transform:
+      rotate(40deg)
+      translate(-8px,1px)
+      scaleX(.5);
+  }
+
+  .contenido{
+    margin-top: 50px;
+    overflow-y: scroll;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+  }
+  .tarjetaTres{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 97%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+  }
+  .tarjetaDosTres{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 97%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+  }
+  .tarjetaUno{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 97%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+  }
+
+  .tarjetaDos{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:97%;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+
+  }
+  .headTarjeta{
+    height: 40px;
+    width: 100%;
+    background-color: #0061A4;
+    border-radius: 6px 6px 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+  }
+  .headTarjeta span{
+    color: white;
+    font-size: 20px;
+  }
+  .headTarjeta img{
+    height: 15px;
+    width: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contenidoTarjeta{
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 6px 6px;
+    overflow-x:auto;
+
+  }
+
+  .serviciosContenido{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+
+  }
+  .serviciosContenido table{
+
+    width: 100%;
+
+
+  }
+  .serviciosContenido table tr{
+    width: 100%;
+    height: 40px;
+  }
+  .serviciosContenido table tr td{
+    width: 33%;
+    text-align: center;
+    color: #757878;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .serviciosContenido table tr td img{
+    height: 30px;
+    width: 40px;
+  }
+  .serviciosContenido table tr td button{
+    height: 25px;
+    width: 60px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .vencimientosContenido table{
+    width: 100%;
+    border-collapse: collapse!important;
+  }
+  .vencimientosContenido table tr{
+    width: 100%;
+    height: 40px;
+  }
+  .vencimientosContenido table tr td{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .vencimientosContenido table tr td button{
+    height: 25px;
+    width: 50px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .vencimientosContenido table thead tr{
+    border: none!important;
+    border-bottom: 1px solid #E0E0E0!important;
+    color: #9A9A9A;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+  }
+  .vencimientosContenido table tbody tr{
+    font-size: 13px;
+    color: #757878;
+  }
+  .precioTabla{
+    color: #3661A1;
+  }
+
+  .comprasContenido table{
+    width: 100%;
+    border-collapse: collapse!important;
+  }
+  .comprasContenido table tr{
+    width: 100%;
+    height: 40px;
+  }
+  .comprasContenido table tr td{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .comprasContenido table tr td button{
+    height: 25px;
+    width: 50px;
+    background-color: #23B534;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .comprasContenido table thead tr{
+    border: none!important;
+    border-bottom: 1px solid #E0E0E0!important;
+    color: #9A9A9A;
+    font-size: 12px;
+    font-weight: 400;
+    height: 30px;
+  }
+  .comprasContenido table tbody tr{
+    font-size: 12px;
+    color: #757878;
+  }
+  .facturacionContenido{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+  }
+  .facturacionContenido .botonesFacturacion{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .facturacionContenido .botonesFacturacion button{
+    height: 25px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .facturacionContenido .tituloFacturacion{
+    color: #0061A4;
+    font-size: 20px;
+    text-align: center;
+  }
+  .facturacionContenido .precioFacturacion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #23B534;
+    font-size: 22px;
+    text-align: center;
+  }
+  .facturacionContenido .infoFacturacion{
+    color: #0061A4;
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+
+
+
+
+  .proyectosContenido table{
+    width: 100%;
+    border-collapse: collapse!important;
+  }
+  .proyectosContenido table tr{
+    width: 100%;
+    height: 40px;
+  }
+  .proyectosContenido table tr td{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .proyectosContenido table tr td button{
+    height: 25px;
+    width: 50px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .proyectosContenido table thead tr{
+    border: none!important;
+    border-bottom: 1px solid #E0E0E0!important;
+    color: #9A9A9A;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+  }
+  .proyectosContenido table thead tr th{
+    color: #0061A4;
+  }
+  .proyectosContenido table tbody tr{
+    font-size: 13px;
+    color: #757878;
+  }
+  .soporteContenido{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+  }
+  .soporteContenido .botonesSoporte{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+  }
+  .soporteContenido .botonesSoporte button{
+    height: 25px;
+
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .soporteContenido span{
+    font-size: 9px;
+    color: #0061A4;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+    /*pantalla de pagos*/
+    .pagoProducto{
+      margin: 10px;
+      width: 90%;
+      min-width: 200px;
+      height: 100%;
+      background-color: #fff;
+      border-radius: 6px;
+      border: 1px solid #E0E0E0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: -moz-flex;
+      display: -webkit-flex;
+
+      -webkit-box-orient: vertical;
+
+      -webkit-box-direction: normal;
+
+          -ms-flex-direction: column;
+
+              flex-direction: column;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+    }
+    .productosCarrito{
+      width: 90%;
+      height: auto;
+
+    }
+
+    .productosCarrito table{
+      width: 100%!important;
+      margin-top: 20px!important;
+      margin-bottom: 20px!important;
+    }
+
+
+
+
+
+    .procesoPago{
+      width: 90%;
+      margin-bottom: 40px;
+    }
+    .envioDatos{
+      display: none;
+    }
+    .envioDatos button{
+      height: 30px;
+      background-color: #0061A4;
+      border-radius: 3px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 12px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .pagoDatos{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: -moz-flex;
+      display: -webkit-flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+    }
+    #metodoSelector{
+      width: 98%;
+    }
+    .infoOpenPay{
+      width: 98%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: -moz-flex;
+      display: -webkit-flex;
+    }
+    .infoOpenPay .columna1 , .infoOpenPay .columna2{
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: -moz-flex;
+      display: -webkit-flex;
+    }
+    .infoOpenPay .columna1{
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+    }
+    .infoOpenPay .columna1 span{
+
+    }
+    .infoOpenPay .columna1 img{
+      width: 120px;
+      height: 35px;
+    }
+    .infoOpenPay .columna2{
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+              justify-content: flex-start;
+              align-items: center;
+              border-left: 1px solid #E0E0E0;
+              margin-left: 5px;
+              padding-left: 5px;
+    }
+    .columna2 img{
+      height: 40px;
+      width: 40px;
+    }
+    .columna2 span{
+      font-size: 9px;
+      line-height: 10px;
+      width: 60%;
+    }
+    #pay-button{
+      height: 30px;
+      width: 60px;
+      background-color: #0061A4;
+      border-radius: 3px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 10px;
+      margin-top: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+  ::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: #EEEEEE;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #0061A4;
+    border-radius: 3px;
+  }
+}
+@media (min-width:850px){
+  #navBar{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+
+  }
+  #navBar .degradadoNavBar{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .degradadoNavBar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+
+  }
+  #logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("../../panel/resources/logo.png");
+    background-size:  130px 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #user-info{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+
+  }
+  #user-info .imagenPerfil{
+    width: 40%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+  }
+  #user-info .imagenPerfil img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #E0E0E0;
+  }
+  #user-info .nombrePerfil{
+    width: 60%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    color: #0061A4;
+  }
+  .hide{
+    display: none!important;
+  }
+  #navegacionNavBar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    border-top: 1px solid #E0E0E0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+  }
+  #navegacionNavBar li{
+    width: 100%;
+    height: auto;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+  }
+  #navegacionNavBar li a{
+    display: block;
+
+    padding-left: 30px;
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    font-size: 18px;
+    color: #0061A4;
+    text-decoration: none;
+    line-height: 40px;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  #navegacionNavBar li:hover{
+    background-color: #E8EAF6;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .activo{
+    background-color: #0061A4;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .activo:hover{
+    background-color: #0061A4!important;
+  }
+  .activo a{
+    color: white!important;
+  }
+
+
+
+
+
+
+  #cuerpo{
+    margin-left: 250px;
+    width: -webkit-calc(100% - 250px);
+    width: calc(100% - 250px);
+    height: 100%;
+    background-color: #EEEEEE;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+  }
+  .cabeceraCuerpo{
+    height: 50px;
+    width: -webkit-calc(100% - 250px);
+    width: calc(100% - 250px);
+    background-color: #fff;
+    border-bottom: 1px solid #E0E0E0;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+  }
+  .iconosCabecera{
+    height: 50px!important;
+    width: 100px!important;
+    margin: 0px;
+    margin-right: 20px!important;
+    border: none!important;
+    box-shadow: none!important;
+  }
+  .iconoUno{
+    background-color: white!important;
+    color: #0061A4!important;
+    font-size: 15px!important;
+    border: none!important;
+  }
+  .iconoDos{
+    background-color: white!important;
+    color: #0061A4!important;
+    font-size: 15px!important;
+    border: none!important;
+  }
+  .iconoUno .menu .item i{
+    background-color: white!important;
+    color: #0061A4!important;
+  }
+
+
+
+
+
+
+  .botonMenu{
+    display: none;
+  }
+  .contenido{
+    margin-top: 50px;
+    max-height: 100%;
+    overflow-y: scroll;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+  }
+  .tarjetaTres{
+    margin: 10px;
+    width: 30%;
+    min-width: 300px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+  }
+  .tarjetaDosTres{
+    margin: 10px;
+    width: 65%;
+    min-width: 300px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+  }
+  .tarjetaUno{
+    margin: 10px;
+    width: 97%;
+    min-width: 300px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+  }
+
+  .tarjetaDos{
+    margin: 10px;
+    width:47.3%;
+    min-width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+
+  }
+  .headTarjeta{
+    height: 40px;
+    width: 100%;
+    background-color: #0061A4;
+    border-radius: 6px 6px 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+  }
+  .headTarjeta span{
+    color: white;
+    font-size: 20px;
+  }
+  .headTarjeta img{
+    height: 15px;
+    width: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contenidoTarjeta{
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 6px 6px;
+  }
+
+  .serviciosContenido{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+
+  }
+  .serviciosContenido table{
+    width: 100%;
+  }
+  .serviciosContenido table tr{
+    width: 100%;
+    height: 40px;
+  }
+  .serviciosContenido table tr td{
+    width: 33%;
+    text-align: center;
+    color: #757878;
+  }
+  .serviciosContenido table tr td img{
+    height: 30px;
+    width: 30px;
+  }
+  .serviciosContenido table tr td button{
+    height: 25px;
+    width: 60px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .vencimientosContenido table{
+    width: 100%;
+    border-collapse: collapse!important;
+  }
+  .vencimientosContenido table tr{
+    width: 100%;
+    height: 40px;
+  }
+  .vencimientosContenido table tr td{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .vencimientosContenido table tr td button{
+    height: 25px;
+    width: 60px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .vencimientosContenido table thead tr{
+    border: none!important;
+    border-bottom: 1px solid #E0E0E0!important;
+    color: #9A9A9A;
+    font-size: 12px;
+    font-weight: 400;
+    height: 30px;
+  }
+  .vencimientosContenido table tbody tr{
+    font-size: 12px;
+    color: #757878;
+  }
+  .precioTabla{
+    color: #3661A1;
+  }
+
+
+  .comprasContenido table{
+    width: 100%;
+    border-collapse: collapse!important;
+  }
+  .comprasContenido table tr{
+    width: 100%;
+    height: 40px;
+  }
+  .comprasContenido table tr td{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .comprasContenido table tr td button{
+    height: 25px;
+    width: 60px;
+    background-color: #23B534;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .comprasContenido table thead tr{
+    border: none!important;
+    border-bottom: 1px solid #E0E0E0!important;
+    color: #9A9A9A;
+    font-size: 12px;
+    font-weight: 400;
+    height: 30px;
+  }
+  .comprasContenido table tbody tr{
+    font-size: 12px;
+    color: #757878;
+  }
+
+  .facturacionContenido{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+  }
+  .facturacionContenido .botonesFacturacion{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .facturacionContenido .botonesFacturacion button{
+    height: 25px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .facturacionContenido .tituloFacturacion{
+    color: #0061A4;
+    font-size: 20px;
+  }
+  .facturacionContenido .precioFacturacion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #23B534;
+    font-size: 22px;
+  }
+  .facturacionContenido .infoFacturacion{
+    color: #0061A4;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .proyectosContenido table{
+    width: 100%;
+    border-collapse: collapse!important;
+  }
+  .proyectosContenido table tr{
+    width: 100%;
+    height: 40px;
+  }
+  .proyectosContenido table tr td{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .proyectosContenido table tr td button{
+    height: 25px;
+
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .proyectosContenido table thead tr{
+    border: none!important;
+    border-bottom: 1px solid #E0E0E0!important;
+    color: #0061A4;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+  }
+  .proyectosContenido table tbody tr{
+    font-size: 13px;
+    color: #757878;
+  }
+
+
+  .soporteContenido{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+  }
+  .soporteContenido .botonesSoporte{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+  }
+  .soporteContenido .botonesSoporte button{
+    height: 25px;
+
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .soporteContenido span{
+    font-size: 9px;
+    color: #0061A4;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+  /*pantalla de pagos*/
+  .pagoProducto{
+    margin: 10px;
+    width: 90%;
+    min-width: 400px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-box-direction: normal;
+
+        -ms-flex-direction: column;
+
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+  }
+  .productosCarrito{
+    width: 95%;
+    height: auto;
+
+  }
+
+  .productosCarrito table{
+    width: 100%!important;
+    margin-top: 40px!important;
+    margin-bottom: 20px!important;
+  }
+  .procesoPago{
+    width: 95%;
+    margin-bottom: 40px;
+  }
+  .envioDatos{
+    display: none;
+  }
+  .envioDatos button{
+    height: 30px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .pagoDatos{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+  }
+  #metodoSelector{
+    width: 90%;
+  }
+  .infoOpenPay{
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+  }
+  .infoOpenPay .columna1 , .infoOpenPay .columna2{
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+  }
+  .infoOpenPay .columna1{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .infoOpenPay .columna1 span{
+
+  }
+  .infoOpenPay .columna1 img{
+    width: 120px;
+    height: 35px;
+  }
+  .infoOpenPay .columna2{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            border-left: 1px solid #E0E0E0;
+            margin-left: 5px;
+            padding-left: 5px;
+  }
+  .columna2 img{
+    height: 40px;
+    width: 40px;
+  }
+  .columna2 span{
+    font-size: 9px;
+    line-height: 10px;
+    width: 60%;
+  }
+  #pay-button{
+    height: 30px;
+    width: 60px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .pagoTiendaInfo{
+    width: 100%;
+    display: flex;
+    display:-webkit-flex;
+    display:-moz-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pagoTiendaInfo button{
+    height: 30px;
+    width: 60px;
+    background-color: #0061A4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .imagenTiendas{
+    width: 98%;
+    position: relative;
+    background-image: url('../../panel/pagos/resources/Horizontal_1.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .imagenTiendas::before{
+    content: ' ';
+    display: block;
+    padding-top: 20%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Cuenta de usuario*/
+  .cuentaPerfil{
+    margin: 10px;
+    width: 90%;
+    min-width: 400px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-box-direction: normal;
+
+        -ms-flex-direction: column;
+
+            flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+  }
+
+  .metodosDePago .headTarjeta span{
+    margin-right: 20px;
+  }
+  .metodosDePago .metodosDePagoContenido{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+
+  }
+  .metodosDePago .metodosDePagoContenido table{
+    width: 90%;
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+  }
+
+
+
+
+
+
+
+
+
+  /*carrito*/
+  .carritoFinal{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+  }
+  .tablaCarrito{
+    width: 90%!important;
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: #eeeeee;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #0061A4;
+    border-radius: 3px;
+  }
+
+}

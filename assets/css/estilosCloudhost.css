@@ -1,0 +1,405 @@
+@media (min-width:750px){
+  main{
+    margin-top: 96px!important;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+  @font-face {
+      font-family: abe;
+      src: url(BebasNeue.otf);
+  }
+
+  main section{
+    width: 100%;
+    height: auto;
+  }
+
+  /*Seccion1*/
+
+#seccion1{
+
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    background: url("../../resources/fondo1.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 4%;
+}
+
+#seccion1 .columna1{
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  align-items: center;
+}
+
+#seccion1 .columna1 .fila1{
+  align-items: center;
+
+}
+
+#seccion1 .columna1 .fila1 img{
+
+  height:400px;
+  width:400px;
+
+}
+
+#seccion1 .columna1 .fila2{
+
+  align-items: center;
+
+}
+
+#seccion1 .columna1 .fila2 p{
+
+  color: white;
+  font-size: 95px;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 3px;
+  width: 500px;
+  font-family: abe;
+
+}
+
+#seccion1 .columna1 .fila3{
+
+  align-items: center;
+
+}
+
+#seccion1 .columna1 .fila3 p{
+
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  width: 500px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#seccion1 .columna1 .fila4{
+
+  align-items: center;
+
+}
+
+#seccion1 .columna1 .fila4 p{
+
+  color: white;
+  font-size: 80px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: abe;
+
+}
+
+#seccion1 .columna2{
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  align-items: flex-end;
+  margin-left: 15%;
+  margin-bottom: 3.1%;
+
+}
+
+#seccion1 .columna2 button{
+
+  height: 55px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  background-color: #03b41c;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+
+}
+
+  /*Seccion2*/
+
+#seccion2{
+
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  background: url("../../resources/fondo2.png") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+#seccion2 .fila1{
+
+  color: white;
+  font-size: 80px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: abe;
+
+}
+
+#seccion2 .fila2 img{
+
+  width: 900px;
+  height: 850px;
+
+}
+
+#seccion2 .fila3{
+
+  color: white;
+  font-size: 80px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: abe;
+
+}
+
+
+  /*Seccion3*/
+
+#seccion3{
+
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  background-color: #3661A1;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+
+}
+
+#seccion3 .fila1{
+
+  color: white;
+  font-size: 80px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: abe;
+
+}
+
+#seccion3 .fila2{
+  align-items: center;
+}
+
+#seccion3 .grid {
+
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 300px;
+  grid-template-columns: 300px 300px;
+  -ms-grid-rows: 150px 150px 1500px;
+  grid-template-rows: 150px 150px 150px;
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+  margin-top: 3%;
+  align-items: center;
+
+}
+
+.box_a {
+
+  align-items: center;
+
+}
+
+.box_a img{
+
+  width: 300px;
+  position: absolute;
+  z-index: 0;
+
+}
+
+.box_a p{
+
+  font-size: 30px;
+  text-align: center;
+  padding-left: 8%;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: relative;
+  margin-top: 10%;
+  z-index: 1;
+}
+
+.box_b button{
+
+  height: 45px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  background-color: #03b41c;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  margin-top: 30%;
+
+}
+
+.box_c{
+align-items: center;
+
+}
+
+.box_c img{
+
+  width: 300px;
+  position: absolute;
+  z-index: 0;
+
+}
+
+.box_c p{
+
+  font-size: 30px;
+  text-align: center;
+  padding-left: 8%;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: relative;
+  margin-top: 10%;
+  z-index: 1;
+}
+
+.box_d button {
+
+  height: 45px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  background-color: #03b41c;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  margin-top: 30%;
+
+}
+
+.box_e {
+
+  align-items:center;
+
+}
+
+.box_e img{
+
+  width: 300px;
+  position: absolute;
+  z-index: 0;
+
+}
+
+.box_e p{
+
+  font-size: 30px;
+  text-align: center;
+  padding-left: 8%;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: relative;
+  margin-top: 10%;
+  z-index: 1;
+}
+
+
+.box_f button{
+  height: 45px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  background-color: #03b41c;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  margin-top: 30%;
+
+}
+
+  /*seccion4*/
+
+#seccion4{
+
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  background-color: #353535;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#seccion4 button{
+  height: 45px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  background-color: #03b41c;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+
+#seccion4 p{
+
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  font-family: abe;
+  padding-top: 1%;
+  padding-left: 1%;
+  letter-spacing: 2px;
+
+}
+
+}

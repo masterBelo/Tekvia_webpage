@@ -1,0 +1,106 @@
+.cabeceraChat{
+   background-image: url(../../resources/cabeceraChatFondo.png);
+    background-size: 100%;
+    height: 500px;
+    width: 100%;
+}
+.textoChat{
+    float: left;
+    width: 70%;
+    height: 100%;
+    color: #fff;
+}
+.imgChat{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+.textoChat1{
+    margin-top: 10%;;
+    margin-left: 5%;
+    font-size: 55px;
+}
+.textoChat2{
+    margin-top: -3%;
+    margin-left: 5%;
+    font-size: 35px;
+}
+.textoChat3{
+    color: #00FFFF;
+    margin-top: 20%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.imgChat2{
+    height: 450px;
+    margin-top: 20px;
+}
+.chat2{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 40;
+}
+.espacioChat{
+    margin-top: 3%;
+}
+.chatVerde{
+    color: #23B534;
+}
+.chatAzul{
+    color: #3661a1;
+}
+.chatGris{
+    color: #5D5D5D;
+}
+.chatNaranja{
+    color: #FE912A;
+}
+.iniciarChat{
+    width: 100%;
+    height: 400px;
+    background-color: #BCC1C4;
+    text-align: center;
+}
+.iniciarChat2{
+    height: 370;
+    margin-top: 15px;
+}
+.mastxChat{
+    width: 100%;
+    height: 800px;
+    background-color: #F3F5F4;
+    text-align: center;
+    font-size: 45px;
+}
+.txtChico{
+    font-size: 35px;
+}
+.asistenciaChat{
+    height: 500px;
+}
+.finalChat{
+    width: 100%;
+    height: 500px;
+    background-color: #BCC1C4;
+}
+.chat150, .chat380, .chat499{
+    float: left;
+    width: 33.3333%;
+}
+.solaChat{
+    height:260px;
+}
+.chatContainer{
+    text-align: center;
+    margin-top: 35px;
+}
+.solaBtn{
+    height: 80px;
+    margin-top: 8%;
+}
+.finalChatTxt{
+    color: #fff;
+    margin-top: 35%;
+    margin-left: 1%;
+}

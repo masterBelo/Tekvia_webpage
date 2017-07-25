@@ -1,0 +1,253 @@
+@font-face{
+	font-family: 'tekvia';
+	src:url(arial.ttf) format('truetype');
+}
+
+.formulariosection{
+  float: left;
+    width: 100%;
+}
+.espacioblanco{
+    float:left; 
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.formularioedu{
+margin-top: 110px;
+    width: 100%;
+}
+.footeredu{
+ float: left;
+  width: 100%;
+}
+
+.hojita{
+    margin: 20px;
+    width: 97.01%;
+    height: 25px;
+    background-color: #EAF0F0;
+    margin-bottom: -20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.formulario{
+    font-family: tekvia;
+    margin: 20px;
+    background-color: #EAF0F0;
+    height: 100%;
+}
+.titulo{
+    margin-left: -20px;
+    width: 100%;
+    color: #345D9A;
+    text-align: right;
+}
+.titulog{
+    margin-top: 0px;
+    font-size: 80px;
+}
+.tituloc{
+    margin-top: -80px;
+    font-size: 45px;
+    text-align: right;
+}
+.titulob{
+    margin-top: -35px;
+    text-align: right;
+    margin-right: 20px;
+    color: #345D9A;
+}
+.inputtext{
+    color: #585858;
+}
+.inputt{
+    border: none;
+    height: 23px;
+    width: 45%;
+}
+.inputtc{
+    border: none;
+    height: 23px;
+    width: 8%;  
+}
+.inputts{
+    border: none;
+    width: 100px;
+    background-color: #fff;
+    height: 23px;
+}
+.inputtexti{
+    float: left;
+    width: 46%;
+    margin-left: 3%;
+    margin-right: 5px;
+}
+.setevelaraya{
+    float: left;
+    width: 2px;
+    height: 350px;
+    background-color: #A4A4A4;
+}
+.inputtextd{
+    float: left;
+    width: 49%;
+    margin-left: 5px;
+}
+.inputfile{
+    margin-left: 3.1%;
+	width: 300px;
+	position: absolute;
+	z-index: 1;
+    font-size: 14;
+    margin-top: .4%;
+}
+label{
+    z-index: 2;
+    position: absolute;
+}
+.lh{
+    border: 1px solid;
+    border-color: #345D9A;
+}
+.lh:hover{
+    transition: all 1s ease;
+    color: #345D9A;
+    border: 1px solid;
+    border-color: #345D9A;
+    background-color: #fff; 
+}
+
+.inputfile + label {
+    font-size: 14px;
+    color: #fff;
+    background-color: #345D9A;
+    display: inline-block;
+    height: 32px;
+    width: 180;
+    border-radius: 3px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+}
+.inputtr{
+    border: none;
+    height: 23px;
+    width: 100%;
+}
+.inputtr2{
+  border: none;
+    height: 23px;
+    width: 95%;  
+}
+
+.mitadRP1, .mitadRP2{
+    float: left;
+    width: 50%;
+}
+.inputarchivos{
+    width: 100%;
+    float: left;
+    margin-top: 3%;
+}
+.tituloabajo{
+    margin-right: 20px;
+    text-align: right;
+    color: #345D9A;
+    font-size: 40px;
+}
+.inputarchivos{
+    background-color: #EAF0F0;
+}
+.archivos{
+    margin-left: 20px;
+    color: #585858;
+    margin-top: 1%;
+}
+.botoncitoverde{
+    margin-top: 50px;
+    background-color: #00b61c;
+    border-color: #00b61c;
+    color: #fff;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+}
+
+.botoncitoverde:hover{
+    transition: all 1s ease;
+    background-color: #fff;
+    border-color: #00b61c;
+    color: #00b61c;
+}
+
+.final{
+    margin-top: -5px;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: url(../../resources/path86.png) center repeat-x;
+    background-size: 100%;
+    background-position:bottom;
+    margin-bottom: 20px;
+}
+.finaly{
+    margin-top: 12%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    height: 50%;
+}
+.finalbtn{
+    background-color: #345D9A;
+    border-color: #345D9A;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.finalbtn:hover{
+    transition: all 1s ease;
+    background-color: #fff;
+    border-color: #345D9A;
+    color: #345D9A;
+}
+.finaltxt{
+    color: #345D9A;
+    position: absolute;
+    float: left; 
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+}
+.verde{
+    font-size: 35px;
+    color: #00b61c;
+}
+a:link{
+    text-decoration: none;
+}

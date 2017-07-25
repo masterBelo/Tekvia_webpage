@@ -1,0 +1,25 @@
+.btn {
+			height: 30px;
+	    width: 130px;
+	    border-radius: 6px;
+	    border: none;
+	    background-color: #23B534;
+	    text-align: center;
+	    color: white;
+	    cursor: pointer;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: 0 none;
+}
+
+
+.btn-chido.raised {
+	background: #23b534;
+	box-shadow: 0 3px 0 0 #008c52;
+}
+.btn-chido.raised:active, .btn-chido.raised.active {
+	background: #23b534;
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}

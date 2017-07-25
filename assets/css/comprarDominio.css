@@ -1,0 +1,26 @@
+.yesCD{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    font-size: 45px;
+}
+.btnCD{
+    font-size: 20px;
+    color: #fff;
+    background-color: #23B534;
+    border-color: #23B534;
+    border-radius: 5px;
+    height: 50px;
+    transition: 1s;
+}
+.btnCD:hover{
+    color: #23B534;
+    background-color: #fff;
+    transition: 1s;
+}
+.verdeCD{
+    color:green;
+}
+.rojoCD{
+    color:red;
+}

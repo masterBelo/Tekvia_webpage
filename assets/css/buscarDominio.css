@@ -1,0 +1,49 @@
+body{
+    overflow-x:hidden
+}
+.textoform{
+    color: #3661a1;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.dominio{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+   
+}
+.elpunto{
+    height: 40px;
+    font-size: 20px;
+    color: #424242;
+    background-color: #fff;
+}
+
+.botoncontainer{
+    margin-top: 2%;
+    text-align: center;
+}
+.boton{
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #00b61c;
+    color: #fff;
+    border-color: #00b61c;
+}
+.botoncompra{
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #3661a1;
+    color: #fff;
+    border-color: #3661a1;
+}

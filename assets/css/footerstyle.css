@@ -1,0 +1,384 @@
+@font-face{
+	font-family: 'tekvia';
+	src:url(arial.ttf) format('truetype');
+}
+body{
+    font-family: tekvia;
+    margin: 0px;
+
+}
+
+.part1{
+    width: 100%;
+    height: 350px;
+    background-color: #E5E7E9;
+}
+.part1i, .part1d{
+    margin-top: 30;
+    font-family: tekvia;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.newsletter{
+    float: left;
+    width: 50%;
+    color: #909497;
+    font-size: 23px;
+    margin-left: 50%;
+    max-height: 10%;
+    margin-bottom: 50px;
+    position: absolute;
+}
+.newsletter1{
+    float: left;
+    width: 50%;
+    color: #909497;
+    font-size: 23px;
+    margin-left: 20%;
+    max-height: 10%;
+    margin-bottom: 50px;
+    position: absolute;
+}
+.newsletteri{
+    float: left;
+    margin-left: 5%;
+    position: relative;
+}
+.newsletterd{
+    float: left;
+    width: 75%;
+    height: 100%;
+    margin-left: 5%;
+    position: relative;
+}
+.part12i{
+    color: #909497;
+    float: right;
+    margin-top: 6%;
+}
+.rayita{
+    background-color: #979A9A;
+    height: 2px;
+    width: 100%;
+}
+.inputnwltter{
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+.btnnwletter{
+    background-color: #3661a1;
+    border-color: #3661a1;
+    float: right;
+    height: 30px;
+    border-radius: 3px;
+    color: #fff;
+}
+.btnnwletter:hover{
+    transition: all 1s ease;
+    background-color: #fff;
+    color: #3661a1;
+}
+
+.part12d{
+    height: 100%;
+    width: 100%;
+    color: #909497;
+    margin-top: 8%;
+}
+.redes{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    margin-left: 30%;
+
+}
+.siguenos{
+    width: 100%;
+    text-align: center;
+}
+.circulitoazul{
+    height: 40px;
+    width: 40px;
+    background-color: #3661a1;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 30px;
+    border-radius: 30px;
+    float: left;
+}
+.circulitoazul:hover{
+    transition: all 1s ease;
+    background-color: #fff;
+}
+.adentrillo{
+    margin-top: 5px;
+}
+.adentrillo:hover{
+    color: #3661a1;
+}
+
+.part2{
+    width: 100%;
+    height: 250px;
+}
+.part2i{
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+.part2d{
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+.txtpart2{
+    margin-top: -10px;
+    margin-left: 200px;
+    color: #909497;
+}
+.t2i1, .t2i2{
+    float: left;
+    width: 50%;
+}
+.titulopart2{
+    font-size: 25px;
+}
+.txtpart2i{
+    font-size: 15;
+}
+.contelefonos{
+    font-size: 25px;
+    margin-top: 45px;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    color: #909497;
+}
+.phonet{
+    font-size: 25px;
+    color: #3661a1;
+}
+.telefonos2{
+    margin-top: 8px;
+    font-size: 13px;
+}
+.rayita2{
+    background-color: #909497;
+    width: 100%;
+    height: 2px;
+    margin-top: 8px;
+}
+.part3{
+    bottom: 1;
+    background-color: #BDC3C7;
+    width: 100%;
+    height: 70px;
+}
+.part4{
+    bottom: 1px;
+    background-color: #4D5656  ;
+    width: 100%;
+    height: 100%;
+    height: 44px;
+}
+.part4f{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+.part3ar{
+    text-align: center;
+    color: #fff;
+    font-size: 14;
+    margin-top:20;
+}
+.part3ab{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 14;
+}
+.txtpart3{
+    margin-left: 30px;
+    color: #fff;
+    text-decoration:none;
+}
+.onit{
+    margin-top: 8px;
+}
+.telefonone{
+        text-decoration:none;
+        color: #909497;
+    }
+
+
+@media (max-width: 850px){
+footer{
+        max-width: 100%;
+    }
+.part1{
+    width: 100%;
+    height: 400px;
+    background-color: #E5E7E9;
+}
+.part1i, .part1d{
+    font-family: tekvia;
+    height: 50%;
+    width: 100%;
+
+}
+
+.part12i{
+    text-align: center;
+    width: 100%;
+    margin-left: 1px;
+    float: right;
+    height: 100%;
+    }
+.newsletter{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    color: #909497;
+    font-size: 23px;
+}
+.newsletterd{
+    width: 100%;
+    margin-left: 0px;
+    }
+.newsletteri{
+    display: none;
+}
+.form{
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    }
+.inputnwltter{
+    width: 80%;
+    height: 30px;
+    border: none;
+}
+
+.btnnwletter{
+    width: 80%;
+    background-color: #3661a1;
+    border: #3661a1;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    height: 30px;
+    border-radius: 3px;
+    color: #fff;
+    float: left;
+    margin-left: 10%;
+    }
+.part12d{
+    color: #909497;
+    height: 70%
+
+}
+
+.redes{
+    margin-top: 50px;
+    width: 100%;
+    height: 10%;
+   margin-left: 0px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+}
+
+.siguenos{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.part2{
+    width: 100%;
+    height: 450px;
+}
+.part2i{
+    width: 100%;
+    float: left;
+    height: 50%;
+}
+.part2d{
+    width: 100%;
+    float: left;
+    height: 50%;
+}
+.txtpart2{
+    float: left;
+    width: 100%;
+    color: #909497;
+    margin-left: 2px;
+    margin-top: -50px;
+}
+.t2i1, .t2i2{
+    float: left;
+    width: 50%;
+}
+.titulopart2{
+    text-align: center;
+    font-size: 25px;
+}
+.txtpart2i{
+    margin-left: 30px;
+    height: 80%;
+    font-size: 15;
+}
+.contelefonos{
+    font-size: 25px;
+    margin-top: -1px;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    color: #909497;
+}
+
+.telefonone a{
+    text-decoration:none !important;
+    color: #909497 !important;
+    }
+
+.part3{
+    background-color: #BDC3C7;
+    width: 100%;
+    height: 170px;
+    font-weight: bold;
+
+}
+.part3ar{
+    color: #fff;
+    font-size: 14;
+    font-size: 11px;
+}
+.part3ab{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 11;
+}
+
+.txtpart3{
+    margin-left: 20px;
+    color: #fff;
+    text-decoration:none;
+}
+    .part4{
+      
+    }
+.part4f{
+    font-size: 11px;
+    }
+}

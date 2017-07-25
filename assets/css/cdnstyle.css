@@ -1,0 +1,221 @@
+@font-face{
+	font-family: 'antonio';
+	src:url(Antonio-Bold.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'sans';
+	src:url(pt-sans.ttf) format('truetype');
+}
+
+.cabeceraCDN{
+    background-image: url(../../resources/fondoCDN.png);
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+}
+.txtCabeceraCDN{
+    font-family: antonio;
+    color: #fff;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.txtCDN1{
+    font-size: 60px;
+}
+.txtCDN2{
+    margin-left: 15%;
+    font-size: 40px;
+}
+.txtCDN3{
+    font-family: antonio;
+    font-size: 50px;
+}
+.txtCDN4{
+    font-size: 20px;
+    font-family: sans;
+}
+.cabeceraAbajoCDN{
+    width: 100%;
+}
+.cabeceraAbajoCDNr{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.cabeceraAbajoCDNl{
+    float: right;
+    width: 50%;
+}
+.relojCDN{
+ height: 400px;
+ margin-left: 10%;
+ z-index: 1; 
+ position: absolute;
+}
+.aguja{
+    z-index: 2;
+    position: absolute;
+    height: 300;
+    margin-top: 7%;
+    margin-left: 16%;
+    transition: all 4s ease-out;
+}
+.aguja:hover{
+    transform: rotate(265deg);
+    transition: all 1s ease-out;
+}
+
+.nubeCDN{
+    height: 70;
+    margin-top: 20%;
+}
+.btnCDN{
+    margin-top: 2%;
+    width: 120px;
+    height: 35;
+    background-color: #3661a1;
+    border-color: #3661a1;
+    color: #fff;
+    border-radius: 5px;
+}
+.btnCDN:hover{
+    background-color: #fff;
+    color: #3661a1;
+    transition: all 1s;
+}
+.cuadroCDN{
+    width: 100%;
+    height: 760px;
+    text-align: center;
+    color: #5D5D5D;
+    margin-top: 3%;
+}
+.cuadroCDNi{
+    margin-top: 4%;
+}
+.cuadroCDNimg{
+    height: 500px;
+}
+.activaCDN{
+    background-color: #BCC1C4;
+    color: #5D5D5D;
+    width: 100%;
+    height: 150px;
+}
+.activaCDNc{
+    width: 100%;
+    height: 100%;
+}
+.activaCDNr{
+    float: left;
+    width: 60%;
+    margin-top: 2%;
+}
+.activaCDNl{
+    float: right;
+    width: 40%;
+    margin-top: 1%;
+}
+.activaCDNtxt{
+    float: right;
+    font-size: 70px;
+    font-family: antonio;
+}
+.activaCDNtxte{
+    float: right;
+    font-size: 65px;
+    font-family: antonio;
+}
+.activaCDNbtn{
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: #3661a1;
+    border-color: #3661a1;
+    color: #fff;
+    height: 70px;
+    width: 250;
+    border-radius: 8px;
+    font-size: 25px;
+}
+.activaCDNbtn:hover{
+    background-color: #fff;
+    color: #3661a1;
+    transition: all 1s;
+}
+.infoCDN{
+    width: 100%;
+    height: 700px;
+    background-color: #EBEFEF;
+}
+.infoCDNt{
+    color: #5D5D5D;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 70px;
+    margin-bottom: 3%;
+    font-family: antonio;
+}
+.txtContainerCDN{
+    width: 100%;
+    height: 400px;
+}
+.txt1CDN, .txt2CDN{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    height: 250px;
+    border: 1px solid ;
+}
+.txt1CDNi{
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+    height: 190px;
+}
+.txt1CDNt{
+    margin-left: 25%;
+    font-size: 23px;
+    margin-top: 7%;
+    color: #5D5D5D;
+    font-family: sans;
+}
+.dudasCDN{
+    width: 100%;
+    height: 150px;
+    background-color: #BCC1C4;
+}
+.dudascCDN{
+    width: 100%;
+    height: 100%;
+}
+.dudasCDNr{
+    float: left;
+    width: 60%;
+}
+.dudasCDNl{
+    float: left;
+    width: 40%;
+}
+.dudasCDNtxt{
+    text-align: right;
+    font-size: 70px;
+    color: #5D5D5D;
+    margin-top: 4%;
+    font-family: antonio;
+}
+.dudasCDNbtn{
+    margin-left: 5%;
+    background-color: #3661a1;
+    border-color: #3661a1;
+    color: #fff;
+    height: 70px;
+    width: 210px;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-top: 9%;
+}
+.dudasCDNbtn:hover{
+    background-color: #fff;
+    color: #3661a1;
+    transition: all 1s;
+}
