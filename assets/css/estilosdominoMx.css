@@ -7,9 +7,13 @@
     flex-direction: column;
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
-
-
   }
+
+  @font-face {
+      font-family: abe;
+      src: url(BebasNeue.otf);
+  }
+
   main section{
     width: 100%;
     height: auto;
@@ -27,7 +31,7 @@
     flex-direction: column;
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
-    background-color: #0061a5;
+    background-color: white;
 
   }
   #seccion1 .filaseccion1{
@@ -39,19 +43,21 @@
     -moz-flex-direction: row;
     align-items: flex-end;
     width: 100%;
-    margin-top: 30px;
+
   }
   #seccion1 .filaseccion1 .filaseccion1Columna1{
-    padding-top: 50px;
+
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     width: 65%;
-  }
+    margin-bottom: 3%;
+    margin-left: 10%;
+    }
   #seccion1 .filaseccion1 .filaseccion1Columna1 .title{
     max-width: 95%;
     color:white;
@@ -69,7 +75,7 @@
 
   }
   #seccion1 .filaseccion1 .filaseccion1Columna1 .inputseccion1{
-    width: 400px;
+    width: 600px;
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;
@@ -105,7 +111,6 @@
 
   }
   #seccion1 .filaseccion1 .filaseccion1Columna2{
-    width: 35%;
 
     display: flex;
     display: -webkit-flex;
@@ -116,11 +121,12 @@
     justify-content: center;
     -webkit-justify-content: center;
     -moz-justify-content: center;
+    margin-top: auto;
 
   }
   #seccion1 .filaseccion1 .filaseccion1Columna2 img{
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
   }
   #seccion1 .fila2seccion1{
     display: flex;
@@ -129,16 +135,18 @@
     align-items: center;
     -webkit-align-items: center;
     -moz-align-items: center;
-    justify-content: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    margin-left: 50%;
+    margin-bottom: 4%;
     width: 100%;
   }
   #seccion1 .fila2seccion1 button{
     margin: 30px;
     margin-bottom: 40px;
     height: 30px;
-    width: 130px;
+    width: 150px;
     border-radius: 6px;
     border: none;
     background-color: #23B534;
@@ -147,7 +155,8 @@
     cursor: pointer;
   }
 
-/*Seccion2*/
+
+  /*Seccion2*/
 
 #seccion2{
 
@@ -156,81 +165,95 @@
   display: flex;
   display: -webkit-flex;
   display: -moz-flex;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-  -moz-flex-direction: column;
-  background-color: #4c4c4c;
-
-
+  align-items: center;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  background-color: f5d87b;
 }
 
 #seccion2 .columna1{
-
   display: flex;
   display: -webkit-flex;
   display: -moz-flex;
-  align-items: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  justify-content: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
   flex-direction: column;
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
-  height: 50%;
-}
-
-#seccion2 .columna1 img{
-
-  width: 200px;
-  height: 150px;
-
+  width: 100%;
 }
 
 #seccion2 .columna1 p{
-
-margin-top: 30px;
-color: white;
-font-size: 25px;
-
+  font-weight: bolder;
+  font-size: 90px;
+  text-align: center;
+  font-family: abe;
 }
 
 #seccion2 .columna2{
-
   display: flex;
   display: -webkit-flex;
   display: -moz-flex;
   align-items: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  justify-content: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
+
+}
+
+#seccion2 .columna2 img{
+
+  width: 430px;
+
+}
+
+#seccion2 .columna3{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
   flex-direction: column;
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
-
+  width: 100%;
 }
 
-#seccion2 .columna2 .titulo{
-
-  font-size: 24px;
-  color: white;
+#seccion2 .columna3 p{
   font-weight: bolder;
-}
-
-#seccion2 .columna2 .texto{
-
-  font-size: 15px;
-  color: white;
-
-}
-#seccion2 .columna2 img{
-
-  width: 20px;
+  font-size: 90px;
+  text-align: center;
+  font-family: abe;
 
 }
 
+  /*Seccion3*/
+
+#seccion3{
+
+  height: 400px;
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: f3f5f4;
+}
+
+#seccion3 .info{
+
+  width: 93%;
+
+}
+
+#seccion3 .info p{
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  color: #0063a5;
+  font-family: abe;
+
+}
+
+#seccion3 .info a{
+
+  color: #00b71f;
+
+}
 
 }

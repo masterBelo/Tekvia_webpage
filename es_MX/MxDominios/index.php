@@ -46,42 +46,50 @@
 
     <header>
       <div class="headerPart1">
-        <a class="logo" href="../../es_MX/"></a>
+        <a class="logo" href="http://c0260330.ferozo.com/TekviaV2/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">SOBRE TEKVIA</div>
           <div class="dropdown part1Opc3">
-            <a href="" class="" id="modalMoneda"><img src="../../resources/peso.jpg" id="moneda"></a>
+            <a href="" class="" id="modalMoneda">MXN</a>
             <div class="dropdowncontent" id="dropdownMoneda">
-              <a href="#" id="usd">USD</a>
-              <a href="#" id="mxn">MXN</a>
+              <a href="#">USD</a>
+              <a href="#">MXN</a>
             </div>
           </div>
+
           <div class="dropdown part1Opc3">
-              <img src="../../resources/Mexico.svg" width="25px" height="15px" id="idioma">
             <a href="" class="" id="modalIdioma">IDIOMA</a>
             <div class="dropdowncontent" id="dropdownIdioma">
-             <a href="../../en_UK/MxDominios/">
-                <div class="opcionDrop">
-                 <img src="../../resources/UnitedKingdom.svg"/>
-                      <span>Ingles</span>
-              </div>
-                </a>
-                <a href="#">
               <div class="opcionDrop">
-                 <img src="../../resources/Mexico.svg"/>
-                      <span>Español</span>
+                <img src="../../resources/UnitedKingdom.svg"/>
+                <span>Ingles</span>
               </div>
-                </a>
+              <div class="opcionDrop">
+                <img src="../../resources/Mexico.svg"/>
+                <span>Mexico</span>
+              </div>
             </div>
           </div>
-          <a href="../login/" class="part1Opc2">PANEL</a>
-         
+          <?php
+          if(empty($usuario)){
+          ?>
+          <a href="../../tekviaErik/panel.html" target="_top" class="part1Opc2">ENTRAR</a>
+          <a href="../../tekviaErik/panel.html" target="_top" class="part1Opc2">REGISTRAR</a>
+          <?php
+          }else{
+          ?>
+          <a href="" class="part1Opc2">PERFIL</a>
+          <?php
+          }
+          ?>
         </div>
       </div>
       <nav>
-       <div class="headerPart2">
+        <div class="headerPart2">
+
         <div class="contenedorNavegacion">
           <ul class="navegacion">
+
             <li>
               <a href="">DOMINIOS</a>
 
@@ -90,7 +98,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="../registrarDominios/">
+                        <a href="http://c0260330.ferozo.com/TekviaV2/registrarDominios/">
                         <span class="opcTitulo">
                           REGISTRA TU DOMINIO
                         </span>
@@ -102,7 +110,7 @@
 
                       </li>
                       <li>
-                        <a href="../MxDominios/">
+                        <a href="">
                         <span class="opcTitulo">
                           DOMINIOS .COM .MX .NET
                         </span>
@@ -114,7 +122,7 @@
 
                       </li>
                       <li>
-                        <a href="../PuntoEdu/">
+                        <a href="http://c0260330.ferozo.com/TekviaV2/PuntoEdu/">
                         <span class="opcTitulo">
                           DOMINIOS .EDU
                         </span>
@@ -126,7 +134,7 @@
 
                       </li>
                       <li>
-                        <a href="../tranferirDominio/">
+                        <a href="http://c0260330.ferozo.com/TekviaV2/tranferirDominio">
                         <span class="opcTitulo">
                           TRANSFIERE TU DOMINIO
                         </span>
@@ -138,9 +146,9 @@
 
                       </li>
                       <li>
-                        <a href="../buscarDominio/">
+                        <a href="">
                         <span class="opcTitulo">
-                          BUSCAR DOMINIO
+                          CONSULTA DE WHOIS
                         </span>
                         <br>
                         <span class="opcDesc">
@@ -154,7 +162,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                        <img src="../resources/descarga.jpg">
 
                       </li>
 
@@ -171,7 +179,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="../WebHosting/">
+                        <a href="">
                         <span class="opcTitulo">
                           WEB HOSTING
                         </span>
@@ -183,7 +191,7 @@
 
                       </li>
                       <li>
-                        <a href="../CloudHosting/">
+                        <a href="">
                         <span class="opcTitulo">
                           CLOUD HOSTING
                         </span>
@@ -224,7 +232,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/cloudhosting.jpeg">
+                        <img src="../resources/cloudhosting.jpeg">
 
                       </li>
 
@@ -245,7 +253,7 @@
                       </li>
 
                       <li>
-                        <a href="../WebHosting/">
+                        <a href="">
                         <span class="opcTitulo">
                           WEB HOSTING
                         </span>
@@ -296,7 +304,7 @@
 
                       </li>
                       <li>
-                        <a href="../CertificadoSSL/">
+                        <a href="">
                         <span class="opcTitulo">
                           CERTIFICADOS SSL
                         </span>
@@ -308,7 +316,7 @@
 
                       </li>
                       <li>
-                        <a href="../chat/">
+                        <a href="">
                         <span class="opcTitulo">
                           CHAT ATENCION ONLINE
                         </span>
@@ -325,7 +333,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                        <img src="../resources/descarga.jpg">
 
                       </li>
 
@@ -342,7 +350,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="../WebHosting/">
+                        <a href="">
                         <span class="opcTitulo">
                           WEB HOSTING
                         </span>
@@ -366,7 +374,7 @@
 
                       </li>
                       <li>
-                        <a href="../chat/">
+                        <a href="">
                         <span class="opcTitulo">
                           CHAT ATENCION ONLINE
                         </span>
@@ -403,7 +411,7 @@
                       </li>
 
                       <li>
-                        <a href="../CertificadoSSL/">
+                        <a href="">
                         <span class="opcTitulo">
                           CERTIFICADOS SSL
                         </span>
@@ -433,7 +441,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="../CDN/">
+                        <a href="">
                         <span class="opcTitulo">
                           CDN
                         </span>
@@ -606,32 +614,39 @@
       <section id="seccion1">
         <div class="filaseccion1">
           <div class="filaseccion1Columna1">
-            <p class="title">Consigue tu domino con nacionalidad</p>
-            <p class="text">.com.mx, .mx o .net tu decides</p>
-            <div class="inputseccion1">
-              <input type="text" name="" value="" placeholder="Escribe el dominio">
+          <div class="inputseccion1">
+              <input type="text" name="" value="" placeholder=".com.mx">
               <img src="resources/tekvialupa.png" alt="">
             </div>
           </div>
           <div class="filaseccion1Columna2">
-            <img src="resources/nube1v2.png" alt="">
+            <img src="resources/za_wardo.png" alt="">
           </div>
         </div>
         <div class="fila2seccion1">
-          <button type="button" name="button">BUSCAR</button>
+          <button type="button" name="button">COMPRAR</button>
         </div>
       </section>
       <section id="seccion2">
         <div class="columna1">
-          <img src="resources/calaca.png" alt="">
-          <p>.com.mx por solo $$$/mes ||| .mx o .net por solo $$$/mes </p>
+          <p>QUE</p>
+          <p>NO</p>
+          <p>TE</p>
+          <p>GANEN</p>
         </div>
         <div class="columna2">
-            <p class="titulo">Razones para registrar un dominio .mx </p>
-            <p class="texto"> <img src="../../resources/Mexico.svg"/> Se utiliza para sitios web ubicados geográficamente en México.</p>
-            <p class="texto"> <img src="../../resources/Mexico.svg"/>  Tu negocio se asociará e identificará directamente con México, lo cual puede ayudarte a mejorar el posicionamiento de tu sitio.</p>
-            <p class="texto"> <img src="../../resources/Mexico.svg"/>  Tu dominio será administrado bajo las leyes de protección al consumidor de nuestro país.</p>
-            <p class="texto"> <img src="../../resources/Mexico.svg"/>  Es una terminación corta, sencilla y fácil de recordar.</p>
+          <img src="resources/mx.png" alt="">
+        </div>
+        <div class="columna3">
+          <p>COMPRA</p>
+          <p>HOY</p>
+          <p>10%</p>
+          <p>OFF</p>
+        </div>
+      </section>
+      <section id="seccion3">
+        <div class="info">
+          <p> <a>REGISTRATE</a> COMPRA Y ASEGURA TU NOMBRE O <a>INICIA SESION</a> PARA IR A TU AREA DE CLIENTE Y COMPRA AHORA  </p>
         </div>
       </section>
     </main>
@@ -639,7 +654,7 @@
         <section class="part1">
         <div class="part1i" data-aos="fade-right">
             <div class="newsletter">
-                <div class="newsletteri"><img src="../../resources/cloud.png"></div><div class="newsletterd">Newsletter</div>
+                <div class="newsletteri"><img src="../resources/cloud.png"></div><div class="newsletterd">Newsletter</div>
             </div>
             <div class="part12i">
                 <div class="rayita"></div>
@@ -698,47 +713,15 @@
     </footer>
 
   </body>
-  <script type="text/javascript" src="../../assets/javascripts/menuscripts.js">
+  <script type="text/javascript" src="../assets/javascripts/menuscripts.js">
   </script>
-  <script type="text/javascript" src="../../assets/slick/slick.min.js"></script>
-  <script type="text/javascript" src="../../assets/javascripts/slideJava.js"></script>
-  <script type="text/javascript" src="../../assets/aos-master/aos-master/dist/aos.js"></script>
+  <script type="text/javascript" src="../assets/slick/slick.min.js"></script>
+  <script type="text/javascript" src="../assets/javascripts/slideJava.js"></script>
+  <script type="text/javascript" src="../assets/aos-master/aos-master/dist/aos.js"></script>
   <script>
     AOS.init({
       once:true,
       duration:1000,
     });
   </script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-    $("#mexicoEsp").click(function(){
-    $("img#idioma").attr("src", "../../resources/Mexico.svg");
-    });
-    });
-    </script>
-    
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#unitedEng").click(function(){
-    $("img#idioma").attr("src", "../../resources/UnitedKingdom.svg");
-    });
-    });
-    </script>
-    
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#mxn").click(function(){
-    $("img#moneda").attr("src", "../../resources/peso.jpg");
-    });
-    });
-    </script>
-    
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#usd").click(function(){
-    $("img#moneda").attr("src", "../../resources/dolar.jpg");
-    });
-    });
-    </script>
 </html>
