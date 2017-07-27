@@ -98,7 +98,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="http://c0260330.ferozo.com/TekviaV2/registrarDominios/">
+                        <a href="../registrarDominios/">
                         <span class="opcTitulo">
                           REGISTRA TU DOMINIO
                         </span>
@@ -110,7 +110,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="#">
                         <span class="opcTitulo">
                           DOMINIOS .COM .MX .NET
                         </span>
@@ -122,7 +122,7 @@
 
                       </li>
                       <li>
-                        <a href="http://c0260330.ferozo.com/TekviaV2/PuntoEdu/">
+                        <a href="../PuntoEdu/">
                         <span class="opcTitulo">
                           DOMINIOS .EDU
                         </span>
@@ -134,7 +134,7 @@
 
                       </li>
                       <li>
-                        <a href="http://c0260330.ferozo.com/TekviaV2/tranferirDominio">
+                        <a href="../tranferirDominio/">
                         <span class="opcTitulo">
                           TRANSFIERE TU DOMINIO
                         </span>
@@ -146,7 +146,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../buscarDominio/">
                         <span class="opcTitulo">
                           CONSULTA DE WHOIS
                         </span>
@@ -179,7 +179,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="">
+                        <a href="../WebHosting/">
                         <span class="opcTitulo">
                           WEB HOSTING
                         </span>
@@ -191,7 +191,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../CloudHosting/">
                         <span class="opcTitulo">
                           CLOUD HOSTING
                         </span>
@@ -215,7 +215,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -253,7 +253,7 @@
                       </li>
 
                       <li>
-                        <a href="">
+                        <a href="../WebHosting/">
                         <span class="opcTitulo">
                           WEB HOSTING
                         </span>
@@ -268,7 +268,7 @@
                         AUMENTA TU PRESENCIA ONLINE
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -304,7 +304,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../CertificadoSSL/">
                         <span class="opcTitulo">
                           CERTIFICADOS SSL
                         </span>
@@ -316,7 +316,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../chat/">
                         <span class="opcTitulo">
                           CHAT ATENCION ONLINE
                         </span>
@@ -333,7 +333,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../resources/descarga.jpg">
+                      <!--  <img src="../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -350,7 +350,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="">
+                        <a href="../WebHosting/">
                         <span class="opcTitulo">
                           WEB HOSTING
                         </span>
@@ -374,7 +374,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../chat/">
                         <span class="opcTitulo">
                           CHAT ATENCION ONLINE
                         </span>
@@ -411,7 +411,7 @@
                       </li>
 
                       <li>
-                        <a href="">
+                        <a href="../CertificadoSSL/">
                         <span class="opcTitulo">
                           CERTIFICADOS SSL
                         </span>

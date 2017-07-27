@@ -48,7 +48,7 @@
 
      <header>
       <div class="headerPart1">
-        <a class="logo" href="../../en_UK/"></a>
+        <a class="logo" href="http://tekvia.com.mx/en_UK/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">ABOUT TEKVIA</div>
           <div class="dropdown part1Opc3">
@@ -77,7 +77,7 @@
             </div>
           </div>
           <a href="../login/" class="part1Opc2">PROFILE</a>
-         
+
         </div>
       </div>
       <nav>
@@ -134,7 +134,7 @@
                           TRANSFER YOUR DOMAIN
                         </span>
                         <br>
-                        <span class="opcDesc">         
+                        <span class="opcDesc">
                             TRUST IN US AND WINS TRANQUILITY.
                         </span>
                         </a>
@@ -157,7 +157,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -227,7 +227,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/cloudhosting.jpeg">
+                      <!--  <img src="../../resources/cloudhosting.jpeg"> -->
 
                       </li>
 
@@ -268,7 +268,7 @@
                           WORDPRESS HOSTING
                         </span>
                         <br>
-                        <span class="opcDesc">           
+                        <span class="opcDesc">
                             CREATE YOUR BUSINESS BLOG WITH THE BEST DESIGNS AND PLUGINS AND EASY TO MANAGE.
                         </span>
                         </a>
@@ -328,7 +328,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -746,7 +746,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -754,7 +754,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#mxn").click(function(){
@@ -762,7 +762,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#usd").click(function(){

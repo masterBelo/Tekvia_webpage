@@ -14,19 +14,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="../../assets/css/estilosInicio.css">
     <link rel="stylesheet" href="../../assets/css/menustyles.css">
-    <link rel="stylesheet" href="../../assets/css/styleedu.css">  
+    <link rel="stylesheet" href="../../assets/css/styleedu.css">
     <link rel="stylesheet" href="../../assets/css/footerstyle.css">
     <link rel="stylesheet" href="../../assets/aos-master/aos-master/dist/aos.css">
     <link rel="stylesheet" href="../../assets/css/sweetalert2.css">
-   
+
     <style type="text/css">
       object{ margin:0; padding:0; height:100%; }
         object { display:block; width:100%; border:none; }
     </style>
-    
+
     <script type="text/javascript" src="../../assets/js/core/libraries/jquery.min.js"></script>
 	<script type="text/javascript" src="../../assets/js/core/libraries/bootstrap.min.js"></script>
-    
+
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 
@@ -50,7 +50,7 @@
 
      <header>
       <div class="headerPart1">
-        <a class="logo" href="../../en_UK/"></a>
+        <a class="logo" href="http://tekvia.com.mx/en_UK/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">ABOUT TEKVIA</div>
           <div class="dropdown part1Opc3">
@@ -79,7 +79,7 @@
             </div>
           </div>
           <a href="../login/" class="part1Opc2">PROFILE</a>
-         
+
         </div>
       </div>
       <nav>
@@ -136,7 +136,7 @@
                           TRANSFER YOUR DOMAIN
                         </span>
                         <br>
-                        <span class="opcDesc">         
+                        <span class="opcDesc">
                             TRUST IN US AND WINS TRANQUILITY.
                         </span>
                         </a>
@@ -159,7 +159,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -188,7 +188,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../CloudHosting/">
                         <span class="opcTitulo">
                           CLOUD HOSTING
                         </span>
@@ -229,7 +229,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/cloudhosting.jpeg">
+                      <!--  <img src="../../resources/cloudhosting.jpeg"> -->
 
                       </li>
 
@@ -270,7 +270,7 @@
                           WORDPRESS HOSTING
                         </span>
                         <br>
-                        <span class="opcDesc">           
+                        <span class="opcDesc">
                             CREATE YOUR BUSINESS BLOG WITH THE BEST DESIGNS AND PLUGINS AND EASY TO MANAGE.
                         </span>
                         </a>
@@ -330,7 +330,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -608,10 +608,10 @@
       </div>
     </div>
       <div class="formulariosection">
-    
+
        <object width="100%" type="text/html" data="checar/whois-example.php"></object>
 
- 
+
       </div>
   </body>
   <script type="text/javascript" src="../../assets/javascripts/menuscripts.js"></script>
@@ -620,8 +620,8 @@
   <script type="text/javascript" src="../../assets/aos-master/aos-master/dist/aos.js"></script>
   <script type="text/javascript" src="../../assets/javascripts/sweetalert2.js"></script>
   <script type="text/javascript" src="../../assets/javascripts/formularioedujs.js"></script>
-  <script type="text/javascript" src="../../assets/javascripts/jquery-3.2.0.min.js"></script>    
-  <script> 
+  <script type="text/javascript" src="../../assets/javascripts/jquery-3.2.0.min.js"></script>
+  <script>
     AOS.init({
       once:true,
       duration:1000,
@@ -633,26 +633,26 @@
         var keynum = window.event ? window.event.keyCode : e.which;
         if ((keynum == 8) || (keynum == 46))
         return true;
-         
+
         return /\d/.test(String.fromCharCode(keynum));
         }
         </script>
     <script src="jquery-1.3.min.js" language="javascript"></script>
-    
-    
+
+
     <script>
     $('#form, #fat, #fo3').submit(function() {
         $.ajax({
             type: 'POST',
             url: $(this).attr('action'),
             data: $(this).serialize('formData'),
- 
+
             success: function(data) {
                 $('#result').html(data);
             }
-        })        
+        })
         return false;
-    }); 
+    });
         </script>
    <script type="text/javascript">
     $(document).ready(function() {
@@ -661,7 +661,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -669,7 +669,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#mxn").click(function(){
@@ -677,7 +677,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#usd").click(function(){
@@ -685,5 +685,5 @@
     });
     });
     </script>
-    
+
 </html>

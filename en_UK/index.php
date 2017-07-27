@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../resources/favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="../resources/favicon.ico" type="image/x-icon">
     <script src="../assets/javascripts/jquery-3.2.0.min.js"></script>
     <script type="text/javascript" src="../assets/javascripts/progressbar.js"></script>
     <script type="text/javascript" src="../assets/javascripts/cargaPantalla.js"></script>
@@ -77,7 +77,7 @@
             </div>
           </div>
           <a href="login/" class="part1Opc2">PROFILE</a>
-         
+
         </div>
       </div>
       <nav>
@@ -93,7 +93,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="registrarDominios/">
+                        <a href="../registrarDominios/">
                         <span class="opcTitulo">
                           REGISTER YOUR DOMAIN
                         </span>
@@ -105,7 +105,7 @@
 
                       </li>
                       <li>
-                        <a href="MxDominios/">
+                        <a href="../MxDominios/">
                         <span class="opcTitulo">
                           DOMAINS .COM .MX .NET
                         </span>
@@ -117,7 +117,7 @@
 
                       </li>
                       <li>
-                        <a href="PuntoEdu/">
+                        <a href="../PuntoEdu/">
                         <span class="opcTitulo">
                           DOMAINS .EDU
                         </span>
@@ -129,19 +129,19 @@
 
                       </li>
                       <li>
-                        <a href="tranferirDominio/">
+                        <a href="../tranferirDominio/">
                         <span class="opcTitulo">
                           TRANSFER YOUR DOMAIN
                         </span>
                         <br>
-                        <span class="opcDesc">         
+                        <span class="opcDesc">
                             TRUST IN US AND WINS TRANQUILITY.
                         </span>
                         </a>
 
                       </li>
                       <li>
-                        <a href="buscarDominio/">
+                        <a href="../buscarDominio/">
                         <span class="opcTitulo">
                           SEARCH DOMAIND
                         </span>
@@ -157,7 +157,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../resources/descarga.jpg">
+                      <!--  <img src="../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -174,7 +174,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="WebHosting/">
+                        <a href="../WebHosting/">
                         <span class="opcTitulo">
                           WEB HOSTING
                         </span>
@@ -186,7 +186,7 @@
 
                       </li>
                       <li>
-                        <a href="CloudHosting/">
+                        <a href="../SCloudHosting/">
                         <span class="opcTitulo">
                           CLOUD HOSTING
                         </span>
@@ -227,7 +227,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../resources/cloudhosting.jpeg">
+                        <!-- <img src="../resources/cloudhosting.jpeg"> -->
 
                       </li>
 
@@ -248,7 +248,7 @@
                       </li>
 
                       <li>
-                        <a href="WebHosting/">
+                        <a href="../WebHosting/">
                         <span class="opcTitulo">
                           WEB HOSTING
                         </span>
@@ -268,7 +268,7 @@
                           WORDPRESS HOSTING
                         </span>
                         <br>
-                        <span class="opcDesc">           
+                        <span class="opcDesc">
                             CREATE YOUR BUSINESS BLOG WITH THE BEST DESIGNS AND PLUGINS AND EASY TO MANAGE.
                         </span>
                         </a>
@@ -299,7 +299,7 @@
 
                       </li>
                       <li>
-                        <a href="CertificadoSSL/">
+                        <a href="../CertificadoSSL/">
                         <span class="opcTitulo">
                           SSL CERTIFICATES
                         </span>
@@ -311,7 +311,7 @@
 
                       </li>
                       <li>
-                        <a href="chat/">
+                        <a href="../chat/">
                         <span class="opcTitulo">
                           CHAT ONLINE ATTENTION
                         </span>
@@ -328,7 +328,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../resources/descarga.jpg">
+                      <!--  <img src="../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -345,7 +345,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="WebHosting/">
+                        <a href="../WebHosting/">
                         <span class="opcTitulo">
                           WEB HOSTING
                         </span>
@@ -369,7 +369,7 @@
 
                       </li>
                       <li>
-                        <a href="chat/">
+                        <a href="../chat/">
                         <span class="opcTitulo">
                           CHAT ONLINE ATTENTION
                         </span>
@@ -406,7 +406,7 @@
                       </li>
 
                       <li>
-                        <a href="CertificadoSSL/">
+                        <a href="../CertificadoSSL/">
                         <span class="opcTitulo">
                           SSL CERTIFICATES
                         </span>
@@ -436,7 +436,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <a href="CDN/">
+                        <a href="../CDN/">
                         <span class="opcTitulo">
                           CDN
                         </span>
@@ -798,14 +798,14 @@
   <script type="text/javascript" src="../assets/slick/slick.min.js"></script>
   <script type="text/javascript" src="../assets/javascripts/slideJava.js"></script>
   <script type="text/javascript" src="../assets/aos-master/aos-master/dist/aos.js"></script>
-    
+
   <script>
     AOS.init({
       once:true,
       duration:1000,
     });
   </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#mexicoEsp").click(function(){
@@ -813,7 +813,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -821,7 +821,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#mxn").click(function(){
@@ -829,7 +829,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#usd").click(function(){
