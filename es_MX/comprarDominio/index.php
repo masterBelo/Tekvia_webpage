@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="../../assets/css/btnStyle.css"/>
     <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../../assets/css/registrarDominiosEstilos.css">
-    <link rel="stylesheet" href="../../assets/css/comprarDominio.css">  
+    <link rel="stylesheet" href="../../assets/css/comprarDominio.css">
 
 
     <title>Comprar Dominio</title>
@@ -48,7 +48,7 @@
 
      <header>
       <div class="headerPart1">
-        <a class="logo" href="../../es_MX/"></a>
+        <a class="logo" href="http://tekvia.com.mx/es_MX/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">SOBRE TEKVIA</div>
           <div class="dropdown part1Opc3">
@@ -77,7 +77,7 @@
             </div>
           </div>
           <a href="../login/" class="part1Opc2">PANEL</a>
-         
+
         </div>
       </div>
       <nav>
@@ -156,7 +156,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -226,7 +226,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/cloudhosting.jpeg">
+                      <!--  <img src="../../resources/cloudhosting.jpeg"> -->
 
                       </li>
 
@@ -327,7 +327,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -605,17 +605,17 @@
       </div>
     </div>
     <main>
-        
+
      <?php
   $dominio = $_POST['dominio'];
   $checker = @fsockopen($dominio, 80);
   if($checker){
  $final="no esta disponible";
-  $rango = 0;} 
+  $rango = 0;}
   else {
   $final="esta disponible";
   $rango = 1;}
-        
+
   if($rango == 0){
         echo "<div class='yesCD'>";
         echo "<br>";
@@ -625,7 +625,7 @@
 
   }
 ?>
-        
+
         <form action="ir.php" <?php if(isset($_SESSION['ide'])){ }else{ echo "target='_blank'";}?> method="post">
 <?php
  if($rango == 1){
@@ -721,7 +721,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -729,7 +729,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#mxn").click(function(){
@@ -737,7 +737,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#usd").click(function(){

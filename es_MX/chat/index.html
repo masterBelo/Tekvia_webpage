@@ -47,7 +47,7 @@
 
      <header>
       <div class="headerPart1">
-        <a class="logo" href="http://c0260330.ferozo.com/TekviaV2/"></a>
+        <a class="logo" href="http://tekvia.com.mx/es_MX/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">SOBRE TEKVIA</div>
           <div class="dropdown part1Opc3">
@@ -77,10 +77,10 @@
           ?>
            <?php
 			include("conection.php");
-			mysqli_query($conexion,$insertar0);     
+			mysqli_query($conexion,$insertar0);
             $insertar0 = "select * from links where nombre='login'";
-            $consulta=mysqli_query($conexion,$insertar0); 
-            while ($row=mysqli_fetch_array($consulta)) 
+            $consulta=mysqli_query($conexion,$insertar0);
+            while ($row=mysqli_fetch_array($consulta))
             {
             $login=$row['link'];
             }
@@ -103,10 +103,10 @@
           <ul class="navegacion">
 			<?php
 			include("conection.php");
-			mysqli_query($conexion,$insertar0);     
+			mysqli_query($conexion,$insertar0);
             $insertar1 = "select * from links where nombre='registrarDominios'";
-            $consulta=mysqli_query($conexion,$insertar1); 
-            while ($row=mysqli_fetch_array($consulta)) 
+            $consulta=mysqli_query($conexion,$insertar1);
+            while ($row=mysqli_fetch_array($consulta))
             {
             $registrarDominios=$row['link'];
             }
@@ -145,10 +145,10 @@
                       <li>
 					  <?php
 						include("conection.php");
-						mysqli_query($conexion,$insertar0);     
+						mysqli_query($conexion,$insertar0);
 						$insertar2 = "select * from links where nombre='puntoEdu'";
-						$consulta=mysqli_query($conexion,$insertar2); 
-						while ($row=mysqli_fetch_array($consulta)) 
+						$consulta=mysqli_query($conexion,$insertar2);
+						while ($row=mysqli_fetch_array($consulta))
 						{
 						$puntoEdu=$row['link'];
 						}
@@ -167,10 +167,10 @@
                       <li>
 					  <?php
 						include("conection.php");
-						mysqli_query($conexion,$insertar0);     
+						mysqli_query($conexion,$insertar0);
 						$insertar3 = "select * from links where nombre='transferirDominio'";
-						$consulta=mysqli_query($conexion,$insertar3); 
-						while ($row=mysqli_fetch_array($consulta)) 
+						$consulta=mysqli_query($conexion,$insertar3);
+						while ($row=mysqli_fetch_array($consulta))
 						{
 						$transferirDominio=$row['link'];
 						}
@@ -203,7 +203,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -273,7 +273,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/cloudhosting.jpeg">
+                      <!--  <img src="../../resources/cloudhosting.jpeg"> -->
 
                       </li>
 
@@ -374,7 +374,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -765,7 +765,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -780,7 +780,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){

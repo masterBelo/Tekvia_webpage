@@ -14,19 +14,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="../../assets/css/estilosInicio.css">
     <link rel="stylesheet" href="../../assets/css/menustyles.css">
-    <link rel="stylesheet" href="../../assets/css/styleedu.css">  
+    <link rel="stylesheet" href="../../assets/css/styleedu.css">
     <link rel="stylesheet" href="../../assets/css/footerstyle.css">
     <link rel="stylesheet" href="../../assets/aos-master/aos-master/dist/aos.css">
     <link rel="stylesheet" href="../../assets/css/sweetalert2.css">
-   
+
     <style type="text/css">
       object{ margin:0; padding:0; height:100%; }
         object { display:block; width:100%; border:none; }
     </style>
-    
+
     <script type="text/javascript" src="../../assets/js/core/libraries/jquery.min.js"></script>
 	<script type="text/javascript" src="../../assets/js/core/libraries/bootstrap.min.js"></script>
-    
+
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 
@@ -50,7 +50,7 @@
 
      <header>
       <div class="headerPart1">
-        <a class="logo" href="http://c0260330.ferozo.com/TekviaV2/"></a>
+        <a class="logo" href="http://tekvia.com.mx/es_MX/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">SOBRE TEKVIA</div>
           <div class="dropdown part1Opc3">
@@ -84,10 +84,10 @@
           ?>
            <?php
 			include("conection.php");
-			mysqli_query($conexion,$insertar0);     
+			mysqli_query($conexion,$insertar0);
             $insertar0 = "select * from links where nombre='login'";
-            $consulta=mysqli_query($conexion,$insertar0); 
-            while ($row=mysqli_fetch_array($consulta)) 
+            $consulta=mysqli_query($conexion,$insertar0);
+            while ($row=mysqli_fetch_array($consulta))
             {
             $login=$row['link'];
             }
@@ -110,10 +110,10 @@
           <ul class="navegacion">
 			<?php
 			include("conection.php");
-			mysqli_query($conexion,$insertar0);     
+			mysqli_query($conexion,$insertar0);
             $insertar1 = "select * from links where nombre='registrarDominios'";
-            $consulta=mysqli_query($conexion,$insertar1); 
-            while ($row=mysqli_fetch_array($consulta)) 
+            $consulta=mysqli_query($conexion,$insertar1);
+            while ($row=mysqli_fetch_array($consulta))
             {
             $registrarDominios=$row['link'];
             }
@@ -152,10 +152,10 @@
                       <li>
 					  <?php
 						include("conection.php");
-						mysqli_query($conexion,$insertar0);     
+						mysqli_query($conexion,$insertar0);
 						$insertar2 = "select * from links where nombre='puntoEdu'";
-						$consulta=mysqli_query($conexion,$insertar2); 
-						while ($row=mysqli_fetch_array($consulta)) 
+						$consulta=mysqli_query($conexion,$insertar2);
+						while ($row=mysqli_fetch_array($consulta))
 						{
 						$puntoEdu=$row['link'];
 						}
@@ -174,10 +174,10 @@
                       <li>
 					  <?php
 						include("conection.php");
-						mysqli_query($conexion,$insertar0);     
+						mysqli_query($conexion,$insertar0);
 						$insertar3 = "select * from links where nombre='transferirDominio'";
-						$consulta=mysqli_query($conexion,$insertar3); 
-						while ($row=mysqli_fetch_array($consulta)) 
+						$consulta=mysqli_query($conexion,$insertar3);
+						while ($row=mysqli_fetch_array($consulta))
 						{
 						$transferirDominio=$row['link'];
 						}
@@ -729,8 +729,8 @@
   <script type="text/javascript" src="../../assets/aos-master/aos-master/dist/aos.js"></script>
   <script type="text/javascript" src="../../assets/javascripts/sweetalert2.js"></script>
   <script type="text/javascript" src="../../assets/javascripts/formularioedujs.js"></script>
-  <script type="text/javascript" src="../../assets/javascripts/jquery-3.2.0.min.js"></script>    
-  <script> 
+  <script type="text/javascript" src="../../assets/javascripts/jquery-3.2.0.min.js"></script>
+  <script>
     AOS.init({
       once:true,
       duration:1000,
@@ -742,26 +742,26 @@
         var keynum = window.event ? window.event.keyCode : e.which;
         if ((keynum == 8) || (keynum == 46))
         return true;
-         
+
         return /\d/.test(String.fromCharCode(keynum));
         }
         </script>
     <script src="jquery-1.3.min.js" language="javascript"></script>
-    
-    
+
+
     <script>
     $('#form, #fat, #fo3').submit(function() {
         $.ajax({
             type: 'POST',
             url: $(this).attr('action'),
             data: $(this).serialize('formData'),
- 
+
             success: function(data) {
                 $('#result').html(data);
             }
-        })        
+        })
         return false;
-    }); 
+    });
         </script>
     <script type="text/javascript">
     $(document).ready(function() {
@@ -770,7 +770,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -785,7 +785,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -793,5 +793,5 @@
     });
     });
     </script>
-    
+
 </html>

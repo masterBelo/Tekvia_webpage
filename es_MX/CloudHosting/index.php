@@ -46,7 +46,7 @@
 
     <header>
       <div class="headerPart1">
-        <a class="logo" href="../../es_MX/"></a>
+        <a class="logo" href="http://tekvia.com.mx/es_MX/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">SOBRE TEKVIA</div>
           <div class="dropdown part1Opc3">
@@ -75,7 +75,7 @@
             </div>
           </div>
           <a href="../login/" class="part1Opc2">PANEL</a>
-         
+
         </div>
       </div>
       <nav>
@@ -154,7 +154,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -224,7 +224,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/cloudhosting.jpeg">
+                      <!--  <img src="../../resources/cloudhosting.jpeg"> -->
 
                       </li>
 
@@ -325,7 +325,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -750,7 +750,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -758,7 +758,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#mxn").click(function(){
@@ -766,7 +766,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#usd").click(function(){

@@ -62,7 +62,7 @@
               <img src="../resources/Mexico.svg" width="25px" height="15px" id="idioma">
             <a href="" class="" id="modalIdioma">IDIOMA</a>
             <div class="dropdowncontent" id="dropdownIdioma">
-             <a href="../en_UK/">
+             <a href="../en_UK/index.php">
                 <div class="opcionDrop">
                  <img src="../resources/UnitedKingdom.svg"/>
                       <span>Ingles</span>
@@ -77,7 +77,7 @@
             </div>
           </div>
           <a href="login/" class="part1Opc2">PANEL</a>
-         
+
         </div>
       </div>
       <nav>
@@ -156,7 +156,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../resources/descarga.jpg">
+                  <!--      <img src="../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -209,7 +209,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -226,7 +226,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../resources/cloudhosting.jpeg">
+                      <!--  <img src="../resources/cloudhosting.jpeg"> -->
 
                       </li>
 
@@ -262,7 +262,7 @@
                         AUMENTA TU PRESENCIA ONLINE
                       </li>
                       <li>
-                        <a href="">
+                        <a href="WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -327,7 +327,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../resources/descarga.jpg">
+                      <!--  <img src="../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -797,14 +797,14 @@
   <script type="text/javascript" src="../assets/slick/slick.min.js"></script>
   <script type="text/javascript" src="../assets/javascripts/slideJava.js"></script>
   <script type="text/javascript" src="../assets/aos-master/aos-master/dist/aos.js"></script>
-    
+
   <script>
     AOS.init({
       once:true,
       duration:1000,
     });
   </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#mexicoEsp").click(function(){
@@ -812,7 +812,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -820,7 +820,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#mxn").click(function(){
@@ -828,7 +828,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#usd").click(function(){

@@ -46,7 +46,7 @@
 
     <header>
       <div class="headerPart1">
-        <a class="logo" href="http://c0260330.ferozo.com/TekviaV2/"></a>
+        <a class="logo" href="http://tekvia.com.mx/es_MX/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">SOBRE TEKVIA</div>
           <div class="dropdown part1Opc3">
@@ -162,7 +162,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../resources/descarga.jpg">
+                      <!--  <img src="../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -232,7 +232,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../resources/cloudhosting.jpeg">
+                      <!--  <img src="../resources/cloudhosting.jpeg"> -->
 
                       </li>
 

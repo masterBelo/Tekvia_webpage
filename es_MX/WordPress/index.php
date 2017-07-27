@@ -1,9 +1,4 @@
 
-<?php
-  session_start();
-  if(isset($_SESSION['ide']))
-  $usuario = $_SESSION['ide'];
-?>
 
 <html>
 
@@ -18,17 +13,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="../../assets/css/estilosInicio.css">
     <link rel="stylesheet" href="../../assets/css/menustyles.css">
-    <link rel="stylesheet" href="../../assets/css/cdnstyle.css">
+
     <link rel="stylesheet" href="../../assets/css/footerstyle.css">
     <link rel="stylesheet" type="text/css" href="../../assets/slick/slick.css"/>
     <link rel="stylesheet" href="../../assets/aos-master/aos-master/dist/aos.css">
     <link rel="stylesheet" type="text/css" href="../../assets/slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="../../assets/css/btnStyle.css"/>
     <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../../assets/css/registrarDominiosEstilos.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/estilosWordpress.css">
 
 
-    <title>CDN</title>
+    <title>Wordpress Hosting</title>
   </head>
   <div id="preloader">
     <div id="container">
@@ -45,44 +40,52 @@
   <body>
 
 
-     <header>
+    <header>
       <div class="headerPart1">
         <a class="logo" href="http://tekvia.com.mx/es_MX/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">SOBRE TEKVIA</div>
           <div class="dropdown part1Opc3">
-            <a href="" class="" id="modalMoneda"><img src="../../resources/peso.jpg" id="moneda"></a>
+            <a href="" class="" id="modalMoneda">MXN</a>
             <div class="dropdowncontent" id="dropdownMoneda">
-              <a href="#" id="usd">USD</a>
-              <a href="#" id="mxn">MXN</a>
+              <a href="#">USD</a>
+              <a href="#">MXN</a>
             </div>
           </div>
+
           <div class="dropdown part1Opc3">
-              <img src="../../resources/Mexico.svg" width="25px" height="15px" id="idioma">
             <a href="" class="" id="modalIdioma">IDIOMA</a>
             <div class="dropdowncontent" id="dropdownIdioma">
-             <a href="../../en_UK/CDN/">
-                <div class="opcionDrop">
-                 <img src="../../resources/UnitedKingdom.svg"/>
-                      <span>Ingles</span>
-              </div>
-                </a>
-                <a href="#">
               <div class="opcionDrop">
-                 <img src="../../resources/Mexico.svg"/>
-                      <span>Español</span>
+                <img src="../../resources/UnitedKingdom.svg"/>
+                <span>Ingles</span>
               </div>
-                </a>
+              <div class="opcionDrop">
+                <img src="../../resources/Mexico.svg"/>
+                <span>Mexico</span>
+              </div>
             </div>
           </div>
-          <a href="../login/" class="part1Opc2">PANEL</a>
-
+          <?php
+          if(empty($usuario)){
+          ?>
+          <a href="../../tekviaErik/panel.html" target="_top" class="part1Opc2">ENTRAR</a>
+          <a href="../../tekviaErik/panel.html" target="_top" class="part1Opc2">REGISTRAR</a>
+          <?php
+          }else{
+          ?>
+          <a href="" class="part1Opc2">PERFIL</a>
+          <?php
+          }
+          ?>
         </div>
       </div>
       <nav>
-      <div class="headerPart2">
+        <div class="headerPart2">
+
         <div class="contenedorNavegacion">
           <ul class="navegacion">
+
             <li>
               <a href="">DOMINIOS</a>
 
@@ -127,7 +130,7 @@
 
                       </li>
                       <li>
-                        <a href="../tranferirDominio/">
+                        <a href="../transferirDominio">
                         <span class="opcTitulo">
                           TRANSFIERE TU DOMINIO
                         </span>
@@ -208,7 +211,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -261,7 +264,7 @@
                         AUMENTA TU PRESENCIA ONLINE
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -297,7 +300,7 @@
 
                       </li>
                       <li>
-                        <a href="../CertificadoSSL/">
+                        <a href="../CertificadosSSL/">
                         <span class="opcTitulo">
                           CERTIFICADOS SSL
                         </span>
@@ -326,7 +329,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                    <!--    <img src="../../resources/descarga.jpg"> -->
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -404,7 +407,7 @@
                       </li>
 
                       <li>
-                        <a href="../CertificadoSSL/">
+                        <a href="../CertificadoSSL">
                         <span class="opcTitulo">
                           CERTIFICADOS SSL
                         </span>
@@ -604,64 +607,88 @@
       </div>
     </div>
     <main>
-     <section class="cabeceraCDN">
-        <div class="txtCabeceraCDN">
-            <font class="txtCDN1">DALE EL MAXIMO A TU SITIO WEB</font><br>
-            <font class="txtCDN2">EN TODAS PARTES DANDO SOLO UN CLICK</font>
-         </div>
-         <div class="cabeceraAbajoCDN">
-         <div class="cabeceraAbajoCDNr">
-             <img class="nubeCDN" src="../../resources/nubeCDN.png"><br>
-             <input class="btnCDN" type="submit" value="ACTIVAR">
-         </div>
-             <div class="cabeceraAbajoCDNl">
-                 <img class="aguja" src="../../resources/aguja.png">
-                 <img class="relojCDN" src="../../resources/speed1.png">
-         </div>
-         </div>
-        </section>
-        <section class="cuadroCDN">
-        <div class="txtCuadroCDN">
-            <font class="txtCDN3">DALE EL MAXIMO A TU SITIO WEB</font><br><br>
-            <font class="txtCDN4">SI TU SITIO ES EL MAS RAPIDO EN INTERNET<br>LOS QUE LA VISITAN EXPERIMENTAN UNA MEJOR EXPERIENCIA<br>Y LOS BUSCADORES LO DISTINGEN PARA ENCONTRARLO MAS FACILMENTE</font>
-            </div>
-            <div class="cuadroCDNI">
-            <img class="cuadroCDNimg" src="../../resources/cuadroCDN.png">
-            </div>
-        </section>
-        <section class="activaCDN">
-        <div class="activaCDNc">
-        <div class="activaCDNr">
-            <font class="activaCDNtxt">ACTIVA HOY TU CDN</font>
-            </div>
-        <div class="activaCDNl">
-            <input class="activaCDNbtn" type="submit" value="ACTIVAR">
-            </div>
-            </div>
-        </section>
-        <section class="infoCDN">
-            <div class="infoCDNt">
-            TU SITIO NO SE MODIFICA
-            </div>
-            <div class="txtContainerCDN">
-            <div class="txt1CDN">
-                <img class="txt1CDNi" src="../../resources/infoCDN1.png"><div class="txt1CDNt">Implementamos el servicio en tu sitio web sin modificar<br>o necesitar requerimientos especiales en tu codigo<br>simplemente contrata y nosotros nos encargamos de hacer lo demas.</div>
-                </div>
-            <div class="txt2CDN">
-                <img class="txt1CDNi" src="../../resources/infoCDN2.png"><div class="txt1CDNt">En unos minutos notaras la diferencia y podras acceder a tu sitio<br>de una manera mas rapida, segura y con el mejor performance.</div>
-                </div>
-            </div>
-        </section>
-        <section class="dudasCDN">
-            <div class="dudascCDN">
-            <div class="dudasCDNr">
-                <div class="dudasCDNtxt">¿TIENES DUDAS?</div>
-                </div>
-            <div class="dudasCDNl">
-                <input class="dudasCDNbtn" type="submit" value="CHAT">
-                </div>
-            </div>
-        </section>
+      <section id="seccion1">
+        <div class="columna1">
+          <div class="fila1">
+            <p> HAZLO TU MISMO </P>
+          </div>
+          <div class="fila2">
+            <p> EL SISTEMA DE GESTION DE CONTENIDOS MAS POPULAR </br>
+              ENFOCDO A BLOGS Y SITIOS WEB </P>
+          </div>
+          <div class="fila3">
+            <p> WORDPRESS HOSTING RAPIDO Y SENCILLO </P>
+          </div>
+        </div>
+        <div class="columna2">
+          <div class="fila1">
+            <img src="resources/flag.png">
+          </div>
+          <div class="fila2">
+            <button type="button" name="button"> COMPRAR </button>
+          </div>
+        </div>
+      </section>
+      <section id="seccion2">
+        <div class="parteI">
+          <div class="textI">
+            <p> HAZ TU BLOG O SITIO WEB AHORA MISMO </p>
+          </div>
+          <div class="textII">
+            <p> EL SISTEMA DE GESTION DE CONTENIDOS MAS POPULAR ENFOCADO A BLOG Y SITIOS WEB </p>
+          </div>
+          <div class="textIII">
+            <p> Utilizalo para sitios web sensacionales de empresas, profecionales y blogleros  </p>
+          </div>
+        </div>
+        <div class="parteII">
+          <img src="resources/icon1.png" alt="">
+          <p>MILES DE PLANTILLAS A TU DISPOSICIÓN</p>
+        </div>
+      </section>
+
+      <section id="seccion2-1">
+        <img src="resources/icon2.png" alt="">
+        <p>DIVERSIDAD EN PLUGINS</p>
+      </section>
+      <section id="seccion3">
+          <div class="columna1">
+            <p>LA FORMA MAS SENCILLA DE INICIAR </br>
+              TU WEB FACIL Y RAPIDO HAZLO TU </br>
+              MISMO, NUESTRO EQUIPO DE SOPORTE </br>
+              ESTARA A TU DISPOSICIÓN.</p>
+            <button type="button" name="button">CONTRATAR</button>
+          </div>
+          <div class="columna2">
+            <img src="resources/rocket.png" alt="">
+          </div>
+      </section>
+      <section id="seccion4">
+        <div class="columna1">
+        <div class="textoI">
+          <p> WORDPRESS HOSTING TE INCLUYE </p>
+        </div>
+        <div class="textoII">
+          <p>-ESPACIO WEB ILIMITADO</p>
+          <p>-TRANSFERENCIA DE DATOS ILIMITADA</p>
+          <p>-WEB MAIL</p>
+          <p>-BASE DE DATOS ILIMITADAS</p>
+          <p>-PANEL DE CONTROL</p>
+          <p>-PHP</p>
+          <p>-CUENTAS ILIMITADAS</p>
+        </div>
+        </div>
+        <div class="columna2">
+          <img src="resources/wp.png" alt="">
+        </div>
+      </section>
+      <section id="seccion4-1">
+        <img src="resources/za-wardo.png" alt="">
+      </section>
+      <section id="seccion4-2">
+        <p> COMIENZA TU BLOG AHORA SOLO TARDAS 5 MINUTOS </p>
+        <button type="button" name="button"> COMENZAR </button>
+      </section>
     </main>
     <footer>
         <section class="part1">
@@ -737,36 +764,4 @@
       duration:1000,
     });
   </script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-    $("#mexicoEsp").click(function(){
-    $("img#idioma").attr("src", "../../resources/Mexico.svg");
-    });
-    });
-    </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#unitedEng").click(function(){
-    $("img#idioma").attr("src", "../resources/UnitedKingdom.svg");
-    });
-    });
-    </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#mxn").click(function(){
-    $("img#moneda").attr("src", "../../resources/peso.jpg");
-    });
-    });
-    </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#usd").click(function(){
-    $("img#moneda").attr("src", "../../resources/dolar.jpg");
-    });
-    });
-    </script>
 </html>
