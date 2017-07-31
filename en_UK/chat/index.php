@@ -76,7 +76,7 @@
             </div>
           </div>
           <a href="../login/" class="part1Opc2">PROFILE</a>
-         
+
         </div>
       </div>
       <nav>
@@ -133,7 +133,7 @@
                           TRANSFER YOUR DOMAIN
                         </span>
                         <br>
-                        <span class="opcDesc">         
+                        <span class="opcDesc">
                             TRUST IN US AND WINS TRANQUILITY.
                         </span>
                         </a>
@@ -156,7 +156,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                        <!--<img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -209,7 +209,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -262,12 +262,12 @@
                         INCREASE YOUR ONLINE PRESENCE
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
                         <br>
-                        <span class="opcDesc">           
+                        <span class="opcDesc">
                             CREATE YOUR BUSINESS BLOG WITH THE BEST DESIGNS AND PLUGINS AND EASY TO MANAGE.
                         </span>
                         </a>
@@ -327,7 +327,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                        <!-- <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -583,7 +583,7 @@
       </div>
       </nav>
     </header>
-	
+
     <div class="headerMovil">
       <div class="menuMovilContenedor">
         <div class="iconoMenuMovil">
@@ -719,7 +719,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#unitedEng").click(function(){
@@ -727,7 +727,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#mxn").click(function(){
@@ -735,7 +735,7 @@
     });
     });
     </script>
-    
+
     <script type="text/javascript">
     $(document).ready(function() {
     $("#usd").click(function(){

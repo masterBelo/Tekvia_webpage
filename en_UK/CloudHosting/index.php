@@ -155,7 +155,7 @@
                   <li class="opc">
                     <ul>
                       <li>
-                        <img src="../../resources/descarga.jpg">
+                      <!--  <img src="../../resources/descarga.jpg"> -->
 
                       </li>
 
@@ -208,7 +208,7 @@
 
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -261,7 +261,7 @@
                         INCREASE YOUR ONLINE PRESENCE
                       </li>
                       <li>
-                        <a href="">
+                        <a href="../WordPress/">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>

@@ -654,7 +654,7 @@
         <section class="part1">
         <div class="part1i" data-aos="fade-right">
             <div class="newsletter">
-                <div class="newsletteri"><img src="../resources/cloud.png"></div><div class="newsletterd">Newsletter</div>
+                <div class="newsletteri"><img src="../../resources/cloud.png"></div><div class="newsletterd">Newsletter</div>
             </div>
             <div class="part12i">
                 <div class="rayita"></div>
@@ -713,11 +713,11 @@
     </footer>
 
   </body>
-  <script type="text/javascript" src="../assets/javascripts/menuscripts.js">
+  <script type="text/javascript" src="../../assets/javascripts/menuscripts.js">
   </script>
-  <script type="text/javascript" src="../assets/slick/slick.min.js"></script>
-  <script type="text/javascript" src="../assets/javascripts/slideJava.js"></script>
-  <script type="text/javascript" src="../assets/aos-master/aos-master/dist/aos.js"></script>
+  <script type="text/javascript" src="../../assets/slick/slick.min.js"></script>
+  <script type="text/javascript" src="../../assets/javascripts/slideJava.js"></script>
+  <script type="text/javascript" src="../../assets/aos-master/aos-master/dist/aos.js"></script>
   <script>
     AOS.init({
       once:true,

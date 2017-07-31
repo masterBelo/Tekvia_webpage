@@ -1,35 +1,29 @@
 
-<?php
-  session_start();
-  $usuario = $_SESSION['ide'];
-?>
 
 <html>
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../resources/favicon.ico" type="image/x-icon">
-    <script src="../assets/javascripts/jquery-3.2.0.min.js"></script>
-    <script type="text/javascript" src="../assets/javascripts/progressbar.js"></script>
-    <script type="text/javascript" src="../assets/javascripts/cargaPantalla.js"></script>
-    <script type="text/javascript" src="../assets/javascripts/jquery.min.js"></script>
-    <script type="text/javascript" src="../assets/javascripts/bootstrap.min.js"></script>
+    <script src="../../assets/javascripts/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="../../assets/javascripts/progressbar.js"></script>
+    <script type="text/javascript" src="../../assets/javascripts/cargaPantalla.js"></script>
+    <script type="text/javascript" src="../../assets/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="../../assets/javascripts/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="../assets/css/estilosInicio.css">
-    <link rel="stylesheet" href="../assets/css/menustyles.css">
+    <link rel="stylesheet" href="../../assets/css/estilosInicio.css">
+    <link rel="stylesheet" href="../../assets/css/menustyles.css">
 
-    <link rel="stylesheet" href="../assets/css/footerstyle.css">
-    <link rel="stylesheet" type="text/css" href="../assets/slick/slick.css"/>
-    <link rel="stylesheet" href="../assets/aos-master/aos-master/dist/aos.css">
-    <link rel="stylesheet" type="text/css" href="../assets/slick/slick-theme.css"/>
-    <link rel="stylesheet" type="text/css" href="../assets/css/btnStyle.css"/>
-    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../assets/css/footerstyle.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/slick/slick.css"/>
+    <link rel="stylesheet" href="../../assets/aos-master/aos-master/dist/aos.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/btnStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/estilosWordpress.css">
 
 
-
-
-    <title>Tekvia</title>
+    <title>Wordpress Hosting</title>
   </head>
   <div id="preloader">
     <div id="container">
@@ -48,43 +42,50 @@
 
     <header>
       <div class="headerPart1">
-        <a class="logo" href="#"></a>
+        <a class="logo" href="http://tekvia.com.mx/en_UK/"></a>
         <div class="contenedorOpciones">
           <div class="part1Opc1">ABOUT TEKVIA</div>
           <div class="dropdown part1Opc3">
             <a href="" class="" id="modalMoneda"><img src="../resources/peso.jpg" id="moneda"></a>
             <div class="dropdowncontent" id="dropdownMoneda">
-              <a href="#" id="usd">USD</a>
-              <a href="#" id="mxn">MXN</a>
+              <a href="#">USD</a>
+              <a href="#">MXN</a>
             </div>
           </div>
+
           <div class="dropdown part1Opc3">
-              <img src="../resources/UnitedKingdom.svg" width="25px" height="15px" id="idioma">
             <a href="" class="" id="modalIdioma">LANGUAGE</a>
             <div class="dropdowncontent" id="dropdownIdioma">
-             <a href="../en_UK/">
-                <div class="opcionDrop">
-                 <img src="../resources/UnitedKingdom.svg"/>
-                      <span>English</span>
-              </div>
-                </a>
-                <a href="../es_MX/">
               <div class="opcionDrop">
-                 <img src="../resources/Mexico.svg"/>
-                      <span>Spanish</span>
+                <img src="../../resources/UnitedKingdom.svg"/>
+                <span>English</span>
               </div>
-                </a>
+              <div class="opcionDrop">
+                <img src="../../resources/Mexico.svg"/>
+                <span>English</span>
+              </div>
             </div>
           </div>
-          <a href="login/" class="part1Opc2">PROFILE</a>
-
+          <?php
+          if(empty($usuario)){
+          ?>
+          <a href="../../tekviaErik/panel.html" target="_top" class="part1Opc2">ENTRAR</a>
+          <a href="../../tekviaErik/panel.html" target="_top" class="part1Opc2">REGISTRAR</a>
+          <?php
+          }else{
+          ?>
+          <a href="" class="part1Opc2">PERFIL</a>
+          <?php
+          }
+          ?>
         </div>
       </div>
       <nav>
-      <div class="headerPart2">
+        <div class="headerPart2">
 
         <div class="contenedorNavegacion">
           <ul class="navegacion">
+
             <li>
               <a href="">DOMAINS</a>
 
@@ -210,7 +211,7 @@
 
                       </li>
                       <li>
-                        <a href="../WordPress/">
+                        <a href="#">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -263,7 +264,7 @@
                         INCREASE YOUR ONLINE PRESENCE
                       </li>
                       <li>
-                        <a href="../WordPress/">
+                        <a href="#">
                         <span class="opcTitulo">
                           WORDPRESS HOSTING
                         </span>
@@ -606,235 +607,161 @@
       </div>
     </div>
     <main>
-      <div class="contenidoInicio">
-
-        <div class="sliderInicio">
-          <div class="slider">
-            <div class="itemSlider">
-              <div class="infoItem" id="item1">
-                <div class="columnaInfo1">
-
-                </div>
-                <div class="columnaInfo2">
-                  <span class="tituloItemInfo">Your business starts with a name.</span>
-                  <span class="textoItemInfo">Get your name on the internet.</span>
-                  <button type="button" name="button">SEARCH YOURS</button>
-                </div>
-              </div>
-            </div>
-            <div class="itemSlider">
-              <div class="infoItem" id="item2">
-                <div class="columnaInfo1">
-
-                </div>
-                <div class="columnaInfo1">
-                  <span class="tituloItemInfo">Cloud hosting</span>
-                  <span class="textoItemInfo">The most powerful servers you'll find. Review our plans</span>
-                  <button type="button" name="button">VIEW PLANS</button>
-                </div>
-              </div>
-            </div>
+      <section id="seccion1">
+        <div class="columna1">
+          <div class="fila1">
+            <p> DO IT YOURSELF </P>
+          </div>
+          <div class="fila2">
+            <p> THE MOST POPULAR CONTENT MANAGEMENT SYSTEM </br>
+               FOCUS ON BLOGS AND WEBSITES </P>
+          </div>
+          <div class="fila3">
+            <p> WORDPRESS HOSTING FAST AND SIMPLE </P>
           </div>
         </div>
-        <div class="infoInicio">
-          <div class="info1">
-            <div class="busquedaDominio">
-              <div class="buscador">
-                <input type="text" name="" value="" placeholder="WHAT DOMAIN ARE YOU LOOKING FOR?">
-                <div class="flecha">
-
-                </div>
-              </div>
-            </div>
-            <div class="hostingPrecio">
-              <div class="lineaVertical">
-
-              </div>
-              <div class="textoHostingPrecio">
-                <div class="linea1">
-                  <div class="linea1col1">
-                    Web hosting
-                  </div>
-                  <div class="linea1col2">
-                    All inclusive
-                  </div>
-                </div>
-                <div class="linea2">
-                  <div class="linea2col1">
-                    <span>$699<sup>90</sup></span>
-                  </div>
-                  <div class="linea2col2">
-                    <button type="button" name="button">HIRE</button>
-                  </div>
-                </div>
-                <div class="linea3">
-                  $ MXN, the plan is subject to change depending on the use.
-                </div>
-              </div>
-            </div>
+        <div class="columna2">
+          <div class="fila1">
+            <img src="resources/flag.png">
           </div>
-          <div class="info2">
-            Do you need advice? <button type="button" name="button">CHAT </button> Or call now at (33) 1598 2616
-          </div>
-          <div class="info3">
-            <div class="infoCloud">
-              <div class="textoCloud">
-                <div class="linea1" data-aos="fade-down">
-                  <img src="../resources/tituloHost.png" alt="">
-                </div>
-                <div class="linea2" data-aos="fade-right">
-                  <p>Take your business anywhere in the world and reach millions
-                    Of customers with just one click now contract your package
-                    Of unlimited web hosting and enjoy an experience with the
-                    Tools that tekvia offers you.</p>
-                </div>
-                <div class="linea3">
-                  <button type="button" class="btn btn-chido raised">BUY</button>
-                </div>
-              </div>
-            </div>
-            <div class="imagenCloud" data-aos="fade-left">
-              <div class="imageCloudPc" data-aos="zoom-in">
-
-              </div>
-            </div>
-          </div>
-          <div class="info4">
-            <div class="imagenServer" data-aos="zoom-in-right">
-              <div class="imageServerPc">
-
-              </div>
-            </div>
-            <div class="infoServer" data-aos="zoom-in-down">
-              <div class="textoServer">
-                <div class="linea1">
-                  <img src="../resources/tituloCloud.png" alt="">
-                </div>
-                <div class="linea2">
-                  <p>Enjoy the maximum power of a cloud server and take your
-                    Project or mobile application to a second level.</p>
-                </div>
-                <div class="linea3">
-                  <button type="button" class="btn btn-chido raised">BUY</button>
-                </div>
-
-              </div>
-
-            </div>
-
+          <div class="fila2">
+            <button type="button" name="button"> buy </button>
           </div>
         </div>
-        <div class="piePagina">
-
+      </section>
+      <section id="seccion2">
+        <div class="parteI">
+          <div class="textI">
+            <p> MAKE YOUR BLOG OR WEBSITE NOW </p>
+          </div>
+          <div class="textII">
+            <p> THE MOST POPULAR CONTENT MANAGEMENT SYSTEM FOCUSED ON BLOG AND WEBSITES </p>
+          </div>
+          <div class="textIII">
+            <p> Use it for great company websites, professionals and bloggers  </p>
+          </div>
         </div>
-      </div>
+        <div class="parteII">
+          <img src="resources/icon1.png" alt="">
+          <p>THOUSANDS OF TEMPLATES AT YOUR DISPOSAL</p>
+        </div>
+      </section>
 
+      <section id="seccion2-1">
+        <img src="resources/icon2.png" alt="">
+        <p>DIVERSITY IN PLUGINS</p>
+      </section>
+      <section id="seccion3">
+          <div class="columna1">
+            <p>THE SINGLE WAY TO GET STARTED </br>
+              YOUR WEB EASY AND FAST DO IT </br>
+              SAME, OUR SUPPORT TEAM</br>
+              WILL BE AT YOUR DISPOSAL.</p>
+            <button type="button" name="button">CONTRACT</button>
+          </div>
+          <div class="columna2">
+            <img src="resources/rocket.png" alt="">
+          </div>
+      </section>
+      <section id="seccion4">
+        <div class="columna1">
+        <div class="textoI">
+          <p> WORDPRESS HOSTING INCLUDES YOU </p>
+        </div>
+        <div class="textoII">
+          <p>-UNLIMITED WEBSITE</p>
+          <p>-UNLIMITED DATA TRANSFER</p>
+          <p>-WEB MAIL</p>
+          <p>-UNLIMITED DATABASE</p>
+          <p>-CONTROL PANEL</p>
+          <p>-PHP</p>
+          <p>-UNLIMITED ACCOUNTS</p>
+        </div>
+        </div>
+        <div class="columna2">
+          <img src="resources/wp.png" alt="">
+        </div>
+      </section>
+      <section id="seccion4-1">
+        <img src="resources/za-wardo.png" alt="">
+      </section>
+      <section id="seccion4-2">
+        <p> BEGIN YOUR BLOG NOW ONLY TAKES 5 MINUTES </p>
+        <button type="button" name="button"> START </button>
+      </section>
     </main>
     <footer>
-        <section class="part1">
-        <div class="part1i" data-aos="fade-right">
-            <div class="newsletter">
-            <div><img class="newsletteri" src="../resources/cloud.png"></div><div class="newsletterd">Newsletter</div>
-            </div>
-            <div class="part12i">
-                <div class="rayita"></div>
-                Subscribe to receive news, special offers and invitations<br>to our exclusive events.
-                <div class="rayita"></div><br>
-                <form class="form">
-                <input type="text" name="nombre" class="inputnwltter" placeholder=" Your Name."><br><br>
-                <input type="mail" name="correo" class="inputnwltter" placeholder=" Your Email."><br><br>
-                    <input type="submit" value="SEND" class="btnnwletter">
-                </form>
-            </div>
-            </div>
-            <div class="part1d" data-aos="fade-left">
-                <div class="part12d">
-                    <div class="redes">
-                        <div class="redesmv">
-                            <div class="redesmvl"><a href="#"><div class="circulitoazul"><i class="fa fa-facebook adentrillo" aria-hidden="true"></i></div></a><a href="#"><div class="circulitoazul"> <i class="fa fa-twitter adentrillo" aria-hidden="true"></i></div></a><a href="#"><div class="circulitoazul"><i class="fa fa-google adentrillo" aria-hidden="true"></i></div></a><a href="#"><div class="circulitoazul"><i class="fa fa-instagram adentrillo" aria-hidden="true"></i></div></a></div>
-                        </div>
-                    </div>
-                    <p class="siguenos">Follow us on our social networks, and find out about our offers.</p>
-                </div>
-            </div>
-        </section>
-        <section class="part2">
-            <div class="part2i" data-aos="zoom-in">
-                <div class="txtpart2">
-                <div class="titulopart2">The company</div><br>
-                    <div class="txtpart2i"><div class="t2i1"><div class="onit">&#8226; About Tekvia<br></div><div class="onit">&#8226; Online store<br></div><div class="onit">&#8226; Support<br></div><div class="onit">&#8226; Client Panel<br></div><div class="onit">&#8226; Tekvia Jobs<br></div><div class="onit">&#8226; Privacy Policy<br></div></div><div class="t2i2"><div class="onit">&#8226; Tekvia Infrastructure<br></div><div class="onit">&#8226; supportcenter.mx<br></div><div class="onit">&#8226; Blog<br></div><div class="onit">&#8226; Address<br></div><div class="onit">&#8226; Quote Services<br></div><div class="onit">&#8226; Government Advising<br></div></div>
-                    </div>
-                </div>
-            </div>
-            <div class="part2d" data-aos="zoom-in">
-                <div class="contelefonos">
-                    <div class="telefonos1">Contact<br><b><i class="fa fa-phone phonet" aria-hidden="true"></i> PHONES</b></div>
-                <div class="rayita2"></div>
-                <div class="telefonos2">+52  33 15892616</div>
-                <div class="telefonos2">+52 33 33922475</div>
-                <div class="telefonos2">+52 33 10255178</div>
-                <div class="rayita2"></div>
-                </div>
-            </div>
-        </section>
-        <section class="part3">
-            <div class="part3ar" >
-                <a href="#" class="txtpart3">HOSTING</a> <a href="#" class="txtpart3">DOMAINS </a><a href="#" class="txtpart3">START YOUR WEB </a><a href="#" class="txtpart3">PROFESSIONAL WEB </a><a href="#" class="txtpart3">WEB DEVELOPMENT </a><a href="#" class="txtpart3">LOGIN </a><a href="#" class="txtpart3">HELP</a>
-            </div>
-            <div class="part3ab">
-                <a href="#" class="txtpart3"> REGISTER YOUR DOMAIN </a><a href="#" class="txtpart3">CLOUD HOSTING </a><a href="#" class="txtpart3">DATA PROTECTION </a><a href="#" class="txtpart3">ONLINE STORE </a><a href="#" class="txtpart3">SUPPORT CENTER</a>
-            </div>
-        </section>
-        <section class="part4">
-            <div class="part4f"><br>
-            Copyright &#169; Tekvia 2017 All rights reserved.
-            </div>
-        </section>
+      <section class="part1">
+      <div class="part1i" data-aos="fade-right">
+          <div class="newsletter">
+          <div><img class="newsletteri" src="../resources/cloud.png"></div><div class="newsletterd">Newsletter</div>
+          </div>
+          <div class="part12i">
+              <div class="rayita"></div>
+              Subscribe to receive news, special offers and invitations<br>to our exclusive events.
+              <div class="rayita"></div><br>
+              <form class="form">
+              <input type="text" name="nombre" class="inputnwltter" placeholder=" Your Name."><br><br>
+              <input type="mail" name="correo" class="inputnwltter" placeholder=" Your Email."><br><br>
+                  <input type="submit" value="SEND" class="btnnwletter">
+              </form>
+          </div>
+          </div>
+          <div class="part1d" data-aos="fade-left">
+              <div class="part12d">
+                  <div class="redes">
+                      <div class="redesmv">
+                          <div class="redesmvl"><a href="#"><div class="circulitoazul"><i class="fa fa-facebook adentrillo" aria-hidden="true"></i></div></a><a href="#"><div class="circulitoazul"> <i class="fa fa-twitter adentrillo" aria-hidden="true"></i></div></a><a href="#"><div class="circulitoazul"><i class="fa fa-google adentrillo" aria-hidden="true"></i></div></a><a href="#"><div class="circulitoazul"><i class="fa fa-instagram adentrillo" aria-hidden="true"></i></div></a></div>
+                      </div>
+                  </div>
+                  <p class="siguenos">Follow us on our social networks, and find out about our offers.</p>
+              </div>
+          </div>
+      </section>
+      <section class="part2">
+          <div class="part2i" data-aos="zoom-in">
+              <div class="txtpart2">
+              <div class="titulopart2">The company</div><br>
+                  <div class="txtpart2i"><div class="t2i1"><div class="onit">&#8226; About Tekvia<br></div><div class="onit">&#8226; Online store<br></div><div class="onit">&#8226; Support<br></div><div class="onit">&#8226; Client Panel<br></div><div class="onit">&#8226; Tekvia Jobs<br></div><div class="onit">&#8226; Privacy Policy<br></div></div><div class="t2i2"><div class="onit">&#8226; Tekvia Infrastructure<br></div><div class="onit">&#8226; supportcenter.mx<br></div><div class="onit">&#8226; Blog<br></div><div class="onit">&#8226; Address<br></div><div class="onit">&#8226; Quote Services<br></div><div class="onit">&#8226; Government Advising<br></div></div>
+                  </div>
+              </div>
+          </div>
+          <div class="part2d" data-aos="zoom-in">
+              <div class="contelefonos">
+                  <div class="telefonos1">Contact<br><b><i class="fa fa-phone phonet" aria-hidden="true"></i> PHONES</b></div>
+              <div class="rayita2"></div>
+              <div class="telefonos2">+52  33 15892616</div>
+              <div class="telefonos2">+52 33 33922475</div>
+              <div class="telefonos2">+52 33 10255178</div>
+              <div class="rayita2"></div>
+              </div>
+          </div>
+      </section>
+      <section class="part3">
+          <div class="part3ar" >
+              <a href="#" class="txtpart3">HOSTING</a> <a href="#" class="txtpart3">DOMAINS </a><a href="#" class="txtpart3">START YOUR WEB </a><a href="#" class="txtpart3">PROFESSIONAL WEB </a><a href="#" class="txtpart3">WEB DEVELOPMENT </a><a href="#" class="txtpart3">LOGIN </a><a href="#" class="txtpart3">HELP</a>
+          </div>
+          <div class="part3ab">
+              <a href="#" class="txtpart3"> REGISTER YOUR DOMAIN </a><a href="#" class="txtpart3">CLOUD HOSTING </a><a href="#" class="txtpart3">DATA PROTECTION </a><a href="#" class="txtpart3">ONLINE STORE </a><a href="#" class="txtpart3">SUPPORT CENTER</a>
+          </div>
+      </section>
+      <section class="part4">
+          <div class="part4f"><br>
+          Copyright &#169; Tekvia 2017 All rights reserved.
+          </div>
+      </section>
     </footer>
 
   </body>
-  <script type="text/javascript" src="../assets/javascripts/menuscripts.js">
+  <script type="text/javascript" src="../../assets/javascripts/menuscripts.js">
   </script>
-  <script type="text/javascript" src="../assets/slick/slick.min.js"></script>
-  <script type="text/javascript" src="../assets/javascripts/slideJava.js"></script>
-  <script type="text/javascript" src="../assets/aos-master/aos-master/dist/aos.js"></script>
-
+  <script type="text/javascript" src="../../assets/slick/slick.min.js"></script>
+  <script type="text/javascript" src="../../assets/javascripts/slideJava.js"></script>
+  <script type="text/javascript" src="../../assets/aos-master/aos-master/dist/aos.js"></script>
   <script>
     AOS.init({
       once:true,
       duration:1000,
     });
   </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#mexicoEsp").click(function(){
-    $("img#idioma").attr("src", "../resources/Mexico.svg");
-    });
-    });
-    </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#unitedEng").click(function(){
-    $("img#idioma").attr("src", "../resources/UnitedKingdom.svg");
-    });
-    });
-    </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#mxn").click(function(){
-    $("img#moneda").attr("src", "../resources/peso.jpg");
-    });
-    });
-    </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $("#usd").click(function(){
-    $("img#moneda").attr("src", "../resources/dolar.jpg");
-    });
-    });
-    </script>
 </html>
